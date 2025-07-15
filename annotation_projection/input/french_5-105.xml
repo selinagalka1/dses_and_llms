@@ -1,46 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title/>
-            <author>Sabine Amon</author>
+            <title type="main">Digitale Edition der Memoiren der Gräfin Schwerin (1684-1732) -
+               französisches Textsample für Annotation Projection</title>
+            <author>
+               <forename>Luise Charlotte von</forename>
+               <surname>Schwerin</surname>
+            </author>
+            <funder>FWF</funder>
          </titleStmt>
-         <editionStmt>
-            <edition/>
-         </editionStmt>
          <publicationStmt>
-            <p>unknown</p>
+            <authority/>
+            <date when="2025">2025</date>
+            <pubPlace>Graz</pubPlace>
          </publicationStmt>
+         <seriesStmt>
+            <title>Memoiren Gräfin Schwerin</title>
+            <respStmt>
+               <resp>Projektleitung</resp>
+               <persName>
+                  <forename>Ines</forename>
+                  <surname>Peper</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung</resp>
+               <persName>
+                  <forename>Michael</forename>
+                  <surname>Pölzl</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung</resp>
+               <persName>
+                  <forename>Ines</forename>
+                  <surname>Peper</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung</resp>
+               <persName>
+                  <forename>Sabine</forename>
+                  <surname>Amon</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung</resp>
+               <persName>
+                  <forename>Selina</forename>
+                  <surname>Galka</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
          <sourceDesc>
-            <p>Converted from a Word document</p>
+            <bibl>
+               <title>Memoiren Gräfin Schwerin</title>
+               <publisher>xxx</publisher>
+               <date/>
+               <country>xxx</country>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <appInfo>
-            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.58.0">
-               <label>DOCX to TEI</label>
-            </application>
-         </appInfo>
+         <projectDesc>
+            <ab>In den frühen 1720er-Jahren schrieb die Gräfin Luise Charlotte von Schwerin ihre
+               Lebenserinnerungen nieder. Ihre Memoiren sind in zwei Abschriften in französischer
+               Sprache erhalten und geben wertvolle Einblicke in die Handlungsspielräume und
+               Netzwerke von Frauen des Hofadels im frühen 18. Jahrhundert. Insbesondere aus dem
+               Raum der Habsburgermonarchie sind aus dieser Zeit keine vergleichbaren
+               Selbstzeugnisse von Frauen erhalten. Geboren als Freiin von Heiden im Herzogtum Kleve
+               und aufgewachsen in den Niederlanden, hatte die Autorin 1704 in eine der führenden
+               Familien des Berliner Hofadels eingeheiratet. 1716 begleitete sie ihren Mann, Graf
+               Friedrich Wilhelm von Schwerin, auf seiner Mission als außerordentlicher preußischer
+               Gesandter nach Wien. 1719 trat sie hier im Palais der Gräfin Eleonore Theresia von
+               Strattmann vom reformierten zum katholischen Glauben über. Ihr Vorhaben, ein Gut in
+               Schlesien zu erwerben und damit wohl auch ihrem Mann und ihren Brüdern Möglichkeiten
+               für den Eintritt in den kaiserlichen Dienst zu eröffnen, scheiterte am Widerstand des
+               böhmischen Hofkanzlers Graf Schlik. Wegen ihres Glaubenswechsels aus Preußen
+               ausgewiesen und von ihrer Familie getrennt, verbrachte sie den Rest ihres Lebens in
+               Köln, Schlesien und Wien und starb 1732 im Kloster St. Laurenz in Wien. Im Rahmen
+               eines vom FWF finanzierten Forschungsprojekts (Laufzeit: 2022-2025) wird eine moderne
+               digitale Edition entstehen, die den Text in französischer und deutscher Sprache für
+               die Forschung zugänglich macht und durch Hintergrundinformationen und digitale
+               Auswertungswerkzeuge erschließt.Im Zentrum der Forschungsfragen des Projekts steht
+               das soziale Netzwerk der Gräfin in Wien. Dieses beruhte primär auf
+               verwandtschaftlichen und informellen Beziehungen, aber auch Hofämter und kirchliche
+               Institutionen spielten eine wichtige Rolle darin. Sowohl in dieser Hinsicht als auch
+               in Bezug auf die kommunikativen Strategien und das intendierte Publikum des Texts
+               fragt das Projekt u.a. nach zeitgenössischen Vorstellungen von Öffentlichkeit,
+               „Privatheit“ und Geheimhaltung. Die digitale Edition wird in Kooperation mit dem
+               Zentrum für Informationsmodellierung (ZIM) der Universität Graz entwickelt. Das
+               Projekt kann auf vorangehende Forschungen (u.a. im Rahmen der DFG-Forschungsgruppe
+               „Self-Narratives in Transcultural Perspective“) und eine gedruckte Edition aufbauen,
+               die auf einer der beiden heute bekannten, von einander abweichenden Abschriften der
+               Memoiren basiert: Une conversion au XVIIIe siècle. Mémoires de la comtesse de
+               Schwerin, herausgegeben von Maurice Daumas und Claudia Ulbrich unter Mitarbeit von
+               Sebastian Kühn, Nina Mönich und Ines Peper (Bordeaux, 2013).</ab>
+         </projectDesc>
       </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change>
-               <name>Sabine Amon</name>
-            </change>
-         </listChange>
-      </revisionDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+         </langUsage>
+      </profileDesc>
    </teiHeader>
    <text xml:lang="fr">
       <body>
          <div>
-            <p xml:id="P.5">L’histoire de ma vie est si remarquable et si remplie
-               d’événements, tant pour leur singularité que par le bruit que les plus considérables
-               ont fait dans le monde, que ma curiosité m’a portée en premier lieu d’en rassembler
-               le cours, et <app>
+            <p xml:id="P.5">L’histoire de ma vie est si remarquable et si remplie d’événements, tant
+               pour leur singularité que par le bruit que les plus considérables ont fait dans le
+               monde, que ma curiosité m’a portée en premier lieu d’en rassembler le cours, et <app>
                   <rdg wit="#A"> deuxièmement</rdg>
                   <rdg wit="#W">secondement</rdg>
                </app> pour qu’un jour <persName ref="#P154 #P159 #P160 #P165 #P167">mes chers
@@ -48,32 +120,32 @@
                (selon le monde) que produit ordinairement une fortune <app>
                   <rdg wit="#A"> éblouissante</rdg>
                </app> à une jeune personne élevée dans tout ce qui peut plaire à son ambition et à
-               ses sens, suites dis-je <anchor corresp="#facs_6"/>d’autant plus
-               dangereuses qu’elles sont imperceptibles à ceux dont l’amour-propre ferme les yeux
-               sur leur conduite, et dont ils ne sont détrompés que par une longue expérience,
-               d’autant plus rude à être exercée que peu de personnes ont le courage d’entreprendre
-               le grand ouvrage de la connaissance de soi-même. Ah ! mon doux et divin Jésus, ce
-               n’est que vos compassions et vos abondantes miséricordes qui m’y ont entraîné presque
-               malgré moi, que de grâces n’avez-vous pas opposé à ma résistance, jusqu’à ce que vous
-               ayez vaincu mon opiniâtreté, et vous m’ayez réduite à une entière résignation à votre
-               volonté. Votre saint Nom en soit béni, loué et glorifié. Amen. Je puis raisonner des
-               suites fâcheuses où la fortune et l’ambition sont le point de vue, et mes tristes
-               réflexions peuvent servir d’exemple à ceux qui comme moi abuseront de leurs
-               sentiments et donneront au monde ce qui n’est qu’à Dieu <app>
+               ses sens, suites dis-je <anchor corresp="#facs_6"/>d’autant plus dangereuses qu’elles
+               sont imperceptibles à ceux dont l’amour-propre ferme les yeux sur leur conduite, et
+               dont ils ne sont détrompés que par une longue expérience, d’autant plus rude à être
+               exercée que peu de personnes ont le courage d’entreprendre le grand ouvrage de la
+               connaissance de soi-même. Ah ! mon doux et divin Jésus, ce n’est que vos compassions
+               et vos abondantes miséricordes qui m’y ont entraîné presque malgré moi, que de grâces
+               n’avez-vous pas opposé à ma résistance, jusqu’à ce que vous ayez vaincu mon
+               opiniâtreté, et vous m’ayez réduite à une entière résignation à votre volonté. Votre
+               saint Nom en soit béni, loué et glorifié. Amen. Je puis raisonner des suites
+               fâcheuses où la fortune et l’ambition sont le point de vue, et mes tristes réflexions
+               peuvent servir d’exemple à ceux qui comme moi abuseront de leurs sentiments et
+               donneront au monde ce qui n’est qu’à Dieu <app>
                   <rdg wit="#A"> seul</rdg>
                </app>.</p>
             <p xml:id="P.6" ana="#T2">
                <persName ref="#P81">Mon père</persName> perdit <persName ref="#P76">ma
                   mère</persName> que j’avais un peu plus d’un an. Elle passait pour une femme du
                monde qui avait le plus de mérite et de vertus, et était citée partout comme un
-               exemple à sui<anchor corresp="#facs_7"/>vre. Elle était d’une
-               dévotion extraordinaire, partageant les soins de sa maison avec ses attentions à
-               l’Eglise, et l’amour de Dieu et du prochain était son unique étude. Ses larmes
-               qu’elle versait en abondance sur ses enfants n’étaient que pour leur attirer la
-               bénédiction divine et ses vœux qu’elle confiait à ses intimes amis étaient qu’elle
-               pût avoir le bonheur de <persName ref="#P400">sainte Monique</persName> et que ses
-               enfants puissent suivre les traces de <persName ref="#P214">saint
-               Augustin</persName>. Étant enceinte de moi elle me donna à <seg ana="#R20">
+               exemple à sui<anchor corresp="#facs_7"/>vre. Elle était d’une dévotion
+               extraordinaire, partageant les soins de sa maison avec ses attentions à l’Eglise, et
+               l’amour de Dieu et du prochain était son unique étude. Ses larmes qu’elle versait en
+               abondance sur ses enfants n’étaient que pour leur attirer la bénédiction divine et
+               ses vœux qu’elle confiait à ses intimes amis étaient qu’elle pût avoir le bonheur de
+                  <persName ref="#P400">sainte Monique</persName> et que ses enfants puissent suivre
+               les traces de <persName ref="#P214">saint Augustin</persName>. Étant enceinte de moi
+               elle me donna à <seg ana="#R20">
                   <persName ref="#P5">une de ses belles-sœurs</persName></seg>. Prévoyant que sa vie
                ne serait pas longue, elle voulut me savoir entre les mains d’une dame d’un mérite
                consommé. Ah ! malheureuse que je suis, que j’en ai peu profité et que ma passion m’a
@@ -81,17 +153,17 @@
                   <rdg wit="#A"> mais il faut que je crois que Dieu l’a permis</rdg>
                </app> ainsi pour me soustraire à tous les bonheurs mondains et périssables pour me
                conduire au céleste et éternel.</p>
-            <p xml:id="P.7">Dès que <persName ref="#P76">ma mère</persName> mourut,
-                  <persName ref="#P5">ma tante</persName> à qui j’étais promise offrit à <persName
-                  ref="#P81">mon père</persName> de me prendre chez elle ; mais l’affliction où il
-               était de la perte irréparable qu’il venait de faire, fit qu’il voulut encore garder
-                  <persName ref="#P78 #P79 #P153">tous ses enfants </persName> pour sa consolation.
-               Surtout puisqu’on trouvait que je<anchor corresp="#facs_8"/> lui
-               ressemblais beaucoup. Enfin à deux ans et demi <persName ref="#P81">mon
-                  père</persName> vainquit sa tendresse [et] me mena chez <persName ref="#P5">ma
-                  tante</persName> où on me reçut avec tout le contentement possible et rien ne
-               pouvait causer plus de joie dans <placeName ref="#O135">cette maison</placeName>.
-                  <persName ref="#P5">Ma tante</persName> demeurait chez <seg ana="#R21">
+            <p xml:id="P.7">Dès que <persName ref="#P76">ma mère</persName> mourut, <persName
+                  ref="#P5">ma tante</persName> à qui j’étais promise offrit à <persName ref="#P81"
+                  >mon père</persName> de me prendre chez elle ; mais l’affliction où il était de la
+               perte irréparable qu’il venait de faire, fit qu’il voulut encore garder <persName
+                  ref="#P78 #P79 #P153">tous ses enfants </persName> pour sa consolation. Surtout
+               puisqu’on trouvait que je<anchor corresp="#facs_8"/> lui ressemblais beaucoup. Enfin
+               à deux ans et demi <persName ref="#P81">mon père</persName> vainquit sa tendresse
+               [et] me mena chez <persName ref="#P5">ma tante</persName> où on me reçut avec tout le
+               contentement possible et rien ne pouvait causer plus de joie dans <placeName
+                  ref="#O135">cette maison</placeName>. <persName ref="#P5">Ma tante</persName>
+               demeurait chez <seg ana="#R21">
                   <persName ref="#P7">sa sœur</persName>
                </seg> qui était une dame d’une vertu exemplaire de même que <persName ref="#P75">son
                   époux</persName>. Cette famille n’avait point d’enfants, ils devinrent tous trois
@@ -109,28 +181,27 @@
                et mortel sans le secours d’une grâce divine particulière sur laquelle personne ne
                peut et n’ose compter.</p>
             <p xml:id="P.8">A l’âge de cinq ans, <persName ref="#P5">ma tante</persName>
-               <anchor corresp="#facs_9"/>perdit <persName ref="#P75">son
-                  époux</persName> d’une blessure qu’il reçut à une bataille très fameuse. Elle
-               redoubla son amour et sa tendresse pour moi et me donna toute son attention qui
-               jusque là avait été partagée par l’objet du monde qu’elle avait le plus chéri. Il
-               mourut à <placeName ref="#O15">Bruxelles</placeName> et elle y fut pendant sa
-               maladie, et me laissa entre les mains <persName ref="#P401">d’une gouvernante
-                  française</persName> qui fut choisie entre toutes la plus douce et la plus
-               complaisante. J’aurais été fort heureuse si elle eut été maîtresse absolue de mon
-               éducation ; mais l’indulgence de <persName ref="#P5 #P6 #P7">mes parents </persName>
-               mettait toujours obstacle quand elle voulait modérer mon amour-propre et ma vanité.
-               Au retour de <persName ref="#P5">ma tante</persName>, elle me contait en m’embrassant
-               avec des torrents de larmes les bénédictions que <persName ref="#P75">mon
-                  oncle</persName> lui avait dit qu’il me donnait. Et à <persName ref="#P401">ma
-                  gouvernante</persName> elle ne pouvait se lasser de lui marquer l’étonnement que
-               lui avaient donné les soins et les services qu’<persName ref="#P402">une
-                  religieuse</persName> avait rendu à <persName ref="#P75">mon oncle</persName>
-               jusqu’à lui fermer les yeux après sa mort et lui rendre toutes les attentions qu’on
-               doit chrétiennement à des malades ou mourants. « En vérité, disait-elle,<anchor
-                  corresp="#facs_10"/> les gens de cette religion ont bien plus de
-               charité que nous, qui croyons être plus illuminés. » Cette parole me frappa toute
-               jeune que j’étais, et je ne pus dès lors vaincre la curiosité que j’avais de savoir
-               quelle sorte de gens <app>
+               <anchor corresp="#facs_9"/>perdit <persName ref="#P75">son époux</persName> d’une
+               blessure qu’il reçut à une bataille très fameuse. Elle redoubla son amour et sa
+               tendresse pour moi et me donna toute son attention qui jusque là avait été partagée
+               par l’objet du monde qu’elle avait le plus chéri. Il mourut à <placeName ref="#O15"
+                  >Bruxelles</placeName> et elle y fut pendant sa maladie, et me laissa entre les
+               mains <persName ref="#P401">d’une gouvernante française</persName> qui fut choisie
+               entre toutes la plus douce et la plus complaisante. J’aurais été fort heureuse si
+               elle eut été maîtresse absolue de mon éducation ; mais l’indulgence de <persName
+                  ref="#P5 #P6 #P7">mes parents </persName> mettait toujours obstacle quand elle
+               voulait modérer mon amour-propre et ma vanité. Au retour de <persName ref="#P5">ma
+                  tante</persName>, elle me contait en m’embrassant avec des torrents de larmes les
+               bénédictions que <persName ref="#P75">mon oncle</persName> lui avait dit qu’il me
+               donnait. Et à <persName ref="#P401">ma gouvernante</persName> elle ne pouvait se
+               lasser de lui marquer l’étonnement que lui avaient donné les soins et les services
+                  qu’<persName ref="#P402">une religieuse</persName> avait rendu à <persName
+                  ref="#P75">mon oncle</persName> jusqu’à lui fermer les yeux après sa mort et lui
+               rendre toutes les attentions qu’on doit chrétiennement à des malades ou mourants.
+               « En vérité, disait-elle,<anchor corresp="#facs_10"/> les gens de cette religion ont
+               bien plus de charité que nous, qui croyons être plus illuminés. » Cette parole me
+               frappa toute jeune que j’étais, et je ne pus dès lors vaincre la curiosité que
+               j’avais de savoir quelle sorte de gens <app>
                   <rdg wit="#W"> c'était</rdg>
                </app> dont elle parlait, mais on crut avec raison qu’à mon âge il était inutile de
                m’en dire davantage.</p>
@@ -144,10 +215,9 @@
                   <rdg wit="#W"> jouets et</rdg>
                </app> colifichets m’occupaient plus que tous ses sages discours. Cela dura toujours
                à peu près le même train jusqu’à l’âge de dix ans. Je n’avais jusque là, ô mon Dieu,
-               aucun bon sentiment que d’aimer à me taire plusieurs heures de suite et à me
-                  <anchor corresp="#facs_11"/> cacher pour être seule, ce que
-               mes bons parents attribuaient à opiniâtreté et caprice ; mais c’était votre conduite
-               ô Divin <app>
+               aucun bon sentiment que d’aimer à me taire plusieurs heures de suite et à me <anchor
+                  corresp="#facs_11"/> cacher pour être seule, ce que mes bons parents attribuaient
+               à opiniâtreté et caprice ; mais c’était votre conduite ô Divin <app>
                   <rdg wit="#A"> Jésus</rdg>
                   <rdg wit="#W"> Sauveur</rdg>
                </app> sur moi, pour m’accoutumer de bonne heure à la solitude et aux réflexions où
@@ -168,11 +238,11 @@
                </seg> de <placeName ref="#O6">Berlin</placeName>, d’une des plus illustres familles
                et des premières en charges et en faveur. Elle n’avait que dix-huit ans lorsque
                   <persName ref="#P81">mon père</persName>
-               <anchor corresp="#facs_12"/> l’épousa. Il venait de temps en
-               temps chez <persName ref="#P5">ma tante</persName> et l’on voulait m’inspirer du
-               respect et de la soumission pour elle ; mais toute enfant que j’étais je ne pouvais
-               lui donner le nom de mère, et me plaignais même à <persName ref="#P401">ma
-                  gouvernante</persName> avec beaucoup de <app>
+               <anchor corresp="#facs_12"/> l’épousa. Il venait de temps en temps chez <persName
+                  ref="#P5">ma tante</persName> et l’on voulait m’inspirer du respect et de la
+               soumission pour elle ; mais toute enfant que j’étais je ne pouvais lui donner le nom
+               de mère, et me plaignais même à <persName ref="#P401">ma gouvernante</persName> avec
+               beaucoup de <app>
                   <rdg wit="#A"> [mot(s) absent(s)]</rdg>
                   <rdg wit="#W"> larmes</rdg>
                </app> ce que qu’on voulait me forcer d’accepter une autre mère que celle qui était
@@ -191,8 +261,8 @@
                l’esprit de mes bienfaiteurs. <app>
                   <rdg wit="#A"> Ayant tout le raffinement d’esprit du monde,</rdg>
                </app> elle inventa <app>
-                  <rdg wit="#W"> donc, ayant tout le rafinements d'<anchor
-                        corresp="#facs_13"/>esprit du monde,</rdg>
+                  <rdg wit="#W"> donc, ayant tout le rafinements d'<anchor corresp="#facs_13"
+                     />esprit du monde,</rdg>
                </app> tous les moyens propres pour venir à son but. Je n’avais que huit ans alors et
                j’étais déjà sensible à la louange et très curieuse. <persName ref="#P82">Ma
                   belle-mère</persName> avait trop <app>
@@ -220,14 +290,14 @@
                Cour. » Ce mot de Cour frappa d’abord mon faible esprit et redoubla mon attention. Sa
                sœur lui répondit : « Quoi, vous voulez la mettre à la Cour ? » « Non, dit <persName
                   ref="#P82">ma belle-mère</persName>, j’en suis fort éloignée, je voudrais la
-                  <anchor corresp="#facs_14"/>marier. » L’autre se mit à rire,
-               avec beaucoup de raison et répliqua : « Quoi, à son âge vous songez à l’établir ? »
-               « Oui » répliqua <persName ref="#P82">ma belle-mère</persName> (et voilà la première
-               fois que la bonté de mon cœur me séduit), « je voudrais la voir heureuse en lui
-               donnant <persName ref="#P162">mon frère</persName> », à quoi sa sœur applaudit.</p>
-            <p xml:id="P.12">J’étais si peu capable de démêler les différentes impressions
-               que ce discours m’avait causées, que je ne savais ce que je sentais. Je voyais une
-               personne à qui je n’avais <app>
+                  <anchor corresp="#facs_14"/>marier. » L’autre se mit à rire, avec beaucoup de
+               raison et répliqua : « Quoi, à son âge vous songez à l’établir ? » « Oui » répliqua
+                  <persName ref="#P82">ma belle-mère</persName> (et voilà la première fois que la
+               bonté de mon cœur me séduit), « je voudrais la voir heureuse en lui donnant <persName
+                  ref="#P162">mon frère</persName> », à quoi sa sœur applaudit.</p>
+            <p xml:id="P.12">J’étais si peu capable de démêler les différentes impressions que ce
+               discours m’avait causées, que je ne savais ce que je sentais. Je voyais une personne
+               à qui je n’avais <app>
                   <rdg wit="#A"> donné</rdg>
                </app> jusque là <app>
                   <rdg wit="#W"> marqué</rdg>
@@ -278,10 +348,10 @@
                   ref="#P78 #P79">les miens </persName> y fut mandé. J’étais charmée de revoir
                   <persName ref="#P82">ma belle-mère</persName>, et mes soins, mes caresses et mes
                soumissions l’engagèrent à me dire mille douceurs. Enfin l’heure de l’arrivée du
-               frère <anchor corresp="#facs_16"/>de <persName ref="#P82">ma
-                  belle-mère</persName>, le <persName ref="#P162">comte de Schwerin</persName>
-               arriva. Il m’est impossible d’exprimer les sentiments que je ressentis à cette
-               première vue. Il avait dix-neuf ans et j’en avais un peu plus de <app>
+               frère <anchor corresp="#facs_16"/>de <persName ref="#P82">ma belle-mère</persName>,
+               le <persName ref="#P162">comte de Schwerin</persName> arriva. Il m’est impossible
+               d’exprimer les sentiments que je ressentis à cette première vue. Il avait dix-neuf
+               ans et j’en avais un peu plus de <app>
                   <rdg wit="#A"> neuf</rdg>
                   <rdg wit="#W"> ...</rdg>
                </app>. <app>
@@ -294,25 +364,24 @@
                d’occasions pour nous entretenir, mais j’étais interdite et confuse dès que je le
                regardais. Mon embarras augmentait de jour en jour, sans que j’en reconnusse la
                cause.</p>
-            <p xml:id="P.14">Cette nombreuse compagnie ne s’arrêta pas longtemps. Ils
-               partirent et j’en restai inconsolable. Je voulais me former sur le modèle de
-                  <persName ref="#P82">ma belle-mère</persName>. Je voulais avoir de l’esprit et des
-               airs de cour, et je ne savais comment m’y prendre pour m’en acquérir. Ah ! parents
-               trop indulgents que ne démêliez-vous mes sentiments et ne mettiez-vous des bornes à
-               un dessein si funeste qui aurait pu perdre le corps et l’âme pour l’éternité, si la
-               miséricorde infinie de Dieu n’eut veillé sur moi. <persName ref="#P5">Ma
-                  tante</persName> me destinait à <persName ref="#P403">un de ses
-               parents</persName>, voisin du lieu où elle demeurait. Il était sous la conduite d’un
-                  <persName ref="#P404">très savant homme</persName>, qui n’avait pas seulement une
-               connaissance entière des belles lettres, mais qui savait encore tout ce qui pouvait
-               perfectionner l’esprit d’une femme. L’envie de plaire à <persName ref="#P82">ma
-                  belle-mère</persName> fit que je priai <persName ref="#P404">ce
-                  gouverneur</persName> de me prendre pour son écolière, et je lui <anchor
-                  corresp="#facs_17"/>promis de la docilité. Il me donna des
-               livres, et il voulait que je lui écrivisse de temps en temps pour former mon style -
-               science malheureuse qui n’a fait que fomenter mon ambition et ma vanité. Car mes
-               premières fatales lettres devinrent ensuite les instruments qui pervertirent mon cœur
-               et ma raison. <persName ref="#P404">Mon maître</persName> était charmé de moi, je
+            <p xml:id="P.14">Cette nombreuse compagnie ne s’arrêta pas longtemps. Ils partirent et
+               j’en restai inconsolable. Je voulais me former sur le modèle de <persName ref="#P82"
+                  >ma belle-mère</persName>. Je voulais avoir de l’esprit et des airs de cour, et je
+               ne savais comment m’y prendre pour m’en acquérir. Ah ! parents trop indulgents que ne
+               démêliez-vous mes sentiments et ne mettiez-vous des bornes à un dessein si funeste
+               qui aurait pu perdre le corps et l’âme pour l’éternité, si la miséricorde infinie de
+               Dieu n’eut veillé sur moi. <persName ref="#P5">Ma tante</persName> me destinait à
+                  <persName ref="#P403">un de ses parents</persName>, voisin du lieu où elle
+               demeurait. Il était sous la conduite d’un <persName ref="#P404">très savant
+                  homme</persName>, qui n’avait pas seulement une connaissance entière des belles
+               lettres, mais qui savait encore tout ce qui pouvait perfectionner l’esprit d’une
+               femme. L’envie de plaire à <persName ref="#P82">ma belle-mère</persName> fit que je
+               priai <persName ref="#P404">ce gouverneur</persName> de me prendre pour son écolière,
+               et je lui <anchor corresp="#facs_17"/>promis de la docilité. Il me donna des livres,
+               et il voulait que je lui écrivisse de temps en temps pour former mon style - science
+               malheureuse qui n’a fait que fomenter mon ambition et ma vanité. Car mes premières
+               fatales lettres devinrent ensuite les instruments qui pervertirent mon cœur et ma
+               raison. <persName ref="#P404">Mon maître</persName> était charmé de moi, je
                réussissais en tout ce qu’il voulait m’apprendre et je devançais tous les disciples
                qu’il avait eus. Ah ! bon Dieu que ne m’apprenait-il à vous connaître et à vous
                aimer, plutôt que de m’arrêter à l’école mondaine, mais c’est vous, mon doux et divin
@@ -329,8 +398,7 @@
                tellement qu’on s’accoutumait à me perdre souvent quelque heure par jour. Que
                n’étais-je avec des conducteurs habiles qui m’eussent cultivé ce penchant ! Mais la
                divine Providence voulut seule me conduire sans secours humain, et a permis que des
-               instructions <anchor corresp="#facs_18"/>très contraires
-               m’occupassent.</p>
+               instructions <anchor corresp="#facs_18"/>très contraires m’occupassent.</p>
             <p xml:id="P.15">
                <persName ref="#P404">Mon maître</persName> me montra la Géographie. Il m’apprit un
                peu de musique pour conduire ma voix, une teinture de l’histoire, et les fables
@@ -358,10 +426,10 @@
                   <rdg wit="#A"> à <placeName ref="#O57">La Haye</placeName></rdg>
                   <rdg wit="#W"> au lieu</rdg>
                </app> où ses charges l’appelaient. Elle pria <persName ref="#P7">sa sœur</persName>
-               de me prendre avec elle pour que je puisse apprendre à danser, ce qui était
-                  <anchor corresp="#facs_19"/>ma grande passion ; mais leur
-               voyage était si court qu’à peine avais-je commencé qu’il fallut repartir. J’en étais
-               au désespoir. Si j’eusse bien compris <app>
+               de me prendre avec elle pour que je puisse apprendre à danser, ce qui était <anchor
+                  corresp="#facs_19"/>ma grande passion ; mais leur voyage était si court qu’à peine
+               avais-je commencé qu’il fallut repartir. J’en étais au désespoir. Si j’eusse bien
+               compris <app>
                   <rdg wit="#A"> vos desseins</rdg>
                </app>, ô mon Dieu, je vous eus loué<app>
                   <rdg wit="#W"> , puisque vous fournissez les moyens de vaincre mes passions,</rdg>
@@ -390,11 +458,10 @@
                et son aveugle tendresse ne mettait aucune borne à mes sentiments vifs et tumultueux.
                Bon Dieu ! si vous aviez laissé réussir tous mes vagues desseins, que serais-je
                devenue ; mais vous m’inspiriez par votre miséricorde infinie un mépris insupportable
-               pour tous <anchor corresp="#facs_27"/>ceux qui m’aimaient et me
-               recherchaient, et de la tendresse et de l’amitié pour ceux qui ne me voulaient aucun
-               bien. C’était là votre conduite, ô divin Jésus, mais je ne le remarquais point, et
-               tant que vos bontés et vos grâces ont abondé sur moi, mon cœur a été de bronze et de
-               glace <app>
+               pour tous <anchor corresp="#facs_27"/>ceux qui m’aimaient et me recherchaient, et de
+               la tendresse et de l’amitié pour ceux qui ne me voulaient aucun bien. C’était là
+               votre conduite, ô divin Jésus, mais je ne le remarquais point, et tant que vos bontés
+               et vos grâces ont abondé sur moi, mon cœur a été de bronze et de glace <app>
                   <rdg wit="#W"> pour vous</rdg>
                </app> jusqu’à ce que votre clémence infinie m’ait pressée par la pesanteur de votre
                Croix, que de grâces ne vous dois-je point, soyez loué et béni à jamais.</p>
@@ -414,16 +481,16 @@
                </hi> et je voulais paraître plus entendue que la jeune provinciale dont il fait
                agréablement le portrait. On y représentait <bibl ana="#B33" status="draft"
                   >Phaëton</bibl>
-               <anchor corresp="#facs_28"/>et la chute avec son char en
-               conduisant le soleil me scandalisa intérieurement. Je jugeai que c’était ridicule de
-               représenter des extravagances pareilles, et en jugeant solidement du spectacle, ma
-               jeunesse et mon ignorance faisaient que je ne discernais pas juste en quoi
-               l’extravagance consistait.</p>
-            <p xml:id="P.18"><persName ref="#P7">La dame</persName> avec qui j’étais s’en
-               retourna chez elle, et peu de jours après <persName ref="#P82">ma
-                  belle-mère</persName> arriva avec <persName ref="#P169">monsieur son
-                  père</persName> et le <persName ref="#P162">comte de Schwerin</persName>. J’eus
-               une joie extrême de les voir, et quoique leur vue <app>
+               <anchor corresp="#facs_28"/>et la chute avec son char en conduisant le soleil me
+               scandalisa intérieurement. Je jugeai que c’était ridicule de représenter des
+               extravagances pareilles, et en jugeant solidement du spectacle, ma jeunesse et mon
+               ignorance faisaient que je ne discernais pas juste en quoi l’extravagance
+               consistait.</p>
+            <p xml:id="P.18"><persName ref="#P7">La dame</persName> avec qui j’étais s’en retourna
+               chez elle, et peu de jours après <persName ref="#P82">ma belle-mère</persName> arriva
+               avec <persName ref="#P169">monsieur son père</persName> et le <persName ref="#P162"
+                  >comte de Schwerin</persName>. J’eus une joie extrême de les voir, et quoique leur
+               vue <app>
                   <rdg wit="#A"> me</rdg>
                   <rdg wit="#W"> [?]</rdg>
                </app> rendit toute interdite, ma vanité aida à m’en cacher. On avait fait <app>
@@ -437,14 +504,13 @@
                famille, je fus destinée à être la victime de la politique et des intérêts
                particuliers. J’étais si déconcertée qu’on crut que je me trouvais mal, et peu s’en
                fallut que je ne m’évanouisse. Si j’eusse bien envisagé cette <anchor
-                  corresp="#facs_29"/>circonstance extraordinaire, je l’eusse
-               prise sans doute comme un présage de tout ce qui m’arriva ensuite, mais je n’y fis
-               aucune réflexion et mon âge ne le permettait même pas. Le <persName ref="#P162">comte
-                  de Schwerin</persName> prit pour manque d’éducation l’embarras où j’étais. J’étais
-               dès lors entêtée de mon prétendu mérite, que peu s’en fallut <anchor
-                  corresp="#facs_20"/>que je ne m’en offensasse jusqu’à rompre
-               tous les desseins de <persName ref="#P82">ma belle-mère</persName> ; mais elle fut
-               trop adroite pour ne pas couvrir <app>
+                  corresp="#facs_29"/>circonstance extraordinaire, je l’eusse prise sans doute comme
+               un présage de tout ce qui m’arriva ensuite, mais je n’y fis aucune réflexion et mon
+               âge ne le permettait même pas. Le <persName ref="#P162">comte de Schwerin</persName>
+               prit pour manque d’éducation l’embarras où j’étais. J’étais dès lors entêtée de mon
+               prétendu mérite, que peu s’en fallut <anchor corresp="#facs_20"/>que je ne m’en
+               offensasse jusqu’à rompre tous les desseins de <persName ref="#P82">ma
+                  belle-mère</persName> ; mais elle fut trop adroite pour ne pas couvrir <app>
                   <rdg wit="#A"> le</rdg>
                   <rdg wit="#W"> l'air de</rdg>
                </app> mépris de <persName ref="#P162">son frère</persName> et mon embarras. Il eut
@@ -469,8 +535,8 @@
                comme du crime le plus capital de payer vos bienfaiteurs d’ingratitudes, c’est la
                source de tous les vices et il aplanit le chemin à un nombre infini de péchés. La
                suite vous en convaincra, et ma triste expérience peut vous en <anchor
-                  corresp="#facs_21"/>instruire sûrement. Enfin, sous prétexte que
-                  <persName ref="#P81">mon père</persName> était malade, <persName ref="#P82">ma
+                  corresp="#facs_21"/>instruire sûrement. Enfin, sous prétexte que <persName
+                  ref="#P81">mon père</persName> était malade, <persName ref="#P82">ma
                   belle-mère</persName> m’emmena ou plutôt m’arracha de <persName ref="#P5">ma bonne
                   tante</persName>. Cette <app>
                   <rdg wit="#A"> très</rdg>
@@ -496,25 +562,25 @@
                beautés de <placeName ref="#O6">Berlin</placeName>. J’en avais l’esprit et le cœur
                remplis, tellement que je me fatiguais nuit et jour, par toutes les idées chimériques
                de cours, de fastes, de grandeurs et de pompes qui m’attendaient.</p>
-            <p xml:id="P.20">Que de grâce ne vous dois-je point, mon doux rédempteur, que
-               dans le trouble et les agitations de pensées si <app>
+            <p xml:id="P.20">Que de grâce ne vous dois-je point, mon doux rédempteur, que dans le
+               trouble et les agitations de pensées si <app>
                   <rdg wit="#A"> monstrueuses</rdg>
                   <rdg wit="#W"> tumultueuses</rdg>
                </app> vous me rappeliez <app>
                   <rdg wit="#A"> de temps en temps. Les nuits je sentais</rdg>
                </app> des inquiétudes mortelles de me trouver sans nul conseil, <persName
-                  ref="#P401">ma gouvernante</persName> s’étant <anchor
-                  corresp="#facs_22"/>mariée l’année d’auparavant. Je fis réflexion que du moins je ne
-               devais rien entreprendre sans vous. Combien de fois vous ai-je imploré d’apaiser mon
-               trouble et de rompre les desseins de <persName ref="#P82">ma belle-mère</persName>,
-               s’ils étaient contraires à votre gloire et à mon salut ; mais qu’au contraire, que
-               s’ils étaient selon les décrets de votre adorable volonté, vous deviez m’inspirer de
-               la constance et de la fermeté pour embrasser le parti que vous me destiniez. Ah !
-               Seigneur, que de soupirs ne vous envoyais-je pas et combien de fois le jour ne vous
-               disais-je point : Seigneur, donnez-moi du courage et de la fermeté.</p>
-            <p xml:id="P.21">Je pris pour marque de la volonté divine un départ qui
-               paraissait extraordinaire selon toutes les règles de la providence, de l’intérêt et
-               de la raison. Je pris congé de <persName ref="#P5 #P6 #P7">ces illustres personnes
+                  ref="#P401">ma gouvernante</persName> s’étant <anchor corresp="#facs_22"/>mariée
+               l’année d’auparavant. Je fis réflexion que du moins je ne devais rien entreprendre
+               sans vous. Combien de fois vous ai-je imploré d’apaiser mon trouble et de rompre les
+               desseins de <persName ref="#P82">ma belle-mère</persName>, s’ils étaient contraires à
+               votre gloire et à mon salut ; mais qu’au contraire, que s’ils étaient selon les
+               décrets de votre adorable volonté, vous deviez m’inspirer de la constance et de la
+               fermeté pour embrasser le parti que vous me destiniez. Ah ! Seigneur, que de soupirs
+               ne vous envoyais-je pas et combien de fois le jour ne vous disais-je point :
+               Seigneur, donnez-moi du courage et de la fermeté.</p>
+            <p xml:id="P.21">Je pris pour marque de la volonté divine un départ qui paraissait
+               extraordinaire selon toutes les règles de la providence, de l’intérêt et de la
+               raison. Je pris congé de <persName ref="#P5 #P6 #P7">ces illustres personnes
                </persName> avec un sang froid qui ressemblait fort à la dureté. Ils me baignèrent
                tous trois de larmes, qui me faisaient de la peine à la vérité, mais qui n’étaient
                pas capables de m’ébranler, tant l’empire de <persName ref="#P82">ma
@@ -524,11 +590,10 @@
                voulant point la loger, et elle prit d’abord la résolution d’aller chez <seg
                   ana="#R3">
                   <persName ref="#P157">une de ses sœurs</persName>
-               </seg> mariée <placeName ref="#O117">à vingt lieues de là</placeName>. Cela
-                  <anchor corresp="#facs_23"/>mortifiait <persName ref="#P5">ma
-                  chère tante</persName> extrêmement, elle vit bien que ses précautions seraient
-               inutiles. Enfin elle conjura <persName ref="#P82">ma belle-mère</persName> en versant
-               des <app>
+               </seg> mariée <placeName ref="#O117">à vingt lieues de là</placeName>. Cela <anchor
+                  corresp="#facs_23"/>mortifiait <persName ref="#P5">ma chère tante</persName>
+               extrêmement, elle vit bien que ses précautions seraient inutiles. Enfin elle conjura
+                  <persName ref="#P82">ma belle-mère</persName> en versant des <app>
                   <rdg wit="#A"> torrents de larmes</rdg>
                   <rdg wit="#W"> larmes en abondance</rdg>
                </app> qu’elle ne devait point précipiter rien, que j’étais encore trop enfant pour
@@ -563,15 +628,15 @@
                savoir dans le monde. Je n’en connaissais ni la routine, ni les dit-on, et j’avais un
                air si naïf et si innocent que chacun s’empressait à me faire parler pour s’en
                divertir. Cela me donna de l’envie de retourner à la vie douce <anchor
-                  corresp="#facs_24"/>et paisible. Je me remis à écrire à
-                  <persName ref="#P5">ma chère tante</persName> et à lui marquer plus de soumission.
-               Elle en fut charmée et prit des mesures avec <persName ref="#P82">ma
-                  belle-mère</persName>. Ainsi on me renvoya bientôt. Je parus toute neuve en
-               arrivant où j’avais été élevée. Je croyais que je devais avoir changé de manières,
-               ayant voyagé et vu la Cour. Je pris des airs affectés et des manières réservées qui
-               paraissaient insupportables à <persName ref="#P5">ma tante</persName>. J’en eus de
-               fortes réprimandes, et je me souviens encore combien de larmes j’en versais à vos
-               pieds, mon Sauveur, vous plaignant combien <app>
+                  corresp="#facs_24"/>et paisible. Je me remis à écrire à <persName ref="#P5">ma
+                  chère tante</persName> et à lui marquer plus de soumission. Elle en fut charmée et
+               prit des mesures avec <persName ref="#P82">ma belle-mère</persName>. Ainsi on me
+               renvoya bientôt. Je parus toute neuve en arrivant où j’avais été élevée. Je croyais
+               que je devais avoir changé de manières, ayant voyagé et vu la Cour. Je pris des airs
+               affectés et des manières réservées qui paraissaient insupportables à <persName
+                  ref="#P5">ma tante</persName>. J’en eus de fortes réprimandes, et je me souviens
+               encore combien de larmes j’en versais à vos pieds, mon Sauveur, vous plaignant
+               combien <app>
                   <rdg wit="#A"> j’étais</rdg>
                   <rdg wit="#W"> je me trouvais</rdg>
                </app> misérable d’être contredite des deux côtés. Je ne savais plus quel parti
@@ -588,9 +653,9 @@
                   <rdg wit="#W"> et aux occupations</rdg>
                </app>, selon mon âge et mon peu de capacité. Elle avait une douceur et une patience
                admirables, elle me permettait mille récréations convenables pour dissiper toutes les
-               idées dont mon esprit malade <anchor corresp="#facs_25"/>était
-               rempli. Enfin <persName ref="#P78 #P79">mes frères </persName> vinrent aussi alors à
-               son secours. Je m’imaginais qu’ils devaient louer mon air prétendu de cour et mes
+               idées dont mon esprit malade <anchor corresp="#facs_25"/>était rempli. Enfin
+                  <persName ref="#P78 #P79">mes frères </persName> vinrent aussi alors à son
+               secours. Je m’imaginais qu’ils devaient louer mon air prétendu de cour et mes
                ajustements. <persName ref="#P79">L’aîné</persName> me dit d’un air froid : « Je
                crois, ma sœur, que vous voulez devenir le singe de <persName ref="#P82">ma
                   belle-mère</persName>. » J’étais si offensée de ce reproche que je ne pouvais en
@@ -606,12 +671,10 @@
                conversation. L’italien de même. J’avais une passion outrée pour le latin, mais
                   <persName ref="#P5">ma tante</persName> ne le voulut point et le défendit
                sévèrement. C’est la plus grande mortification que j’ai eue de sa part.</p>
-            <p xml:id="P.24">Dans ces entrefaites, <persName ref="#P413">le c de
-                  S.</persName>
-               <anchor corresp="#facs_26"/>vint où j’étais et me demanda pour
-                  <persName ref="#P414">son fils</persName>. Il l’avait emmené avec toute sa
-               famille. <persName ref="#P682">Ses filles</persName> qui étaient les dames du monde
-               les plus aimables <app>
+            <p xml:id="P.24">Dans ces entrefaites, <persName ref="#P413">le c de S.</persName>
+               <anchor corresp="#facs_26"/>vint où j’étais et me demanda pour <persName ref="#P414"
+                  >son fils</persName>. Il l’avait emmené avec toute sa famille. <persName
+                  ref="#P682">Ses filles</persName> qui étaient les dames du monde les plus aimables <app>
                   <rdg wit="#W"> et les plus accomplies</rdg>
                </app> me firent mille caresses et m’engagèrent à me lier d’amitié avec elles.
                J’étais charmée d’elles, mais je refusai tout net ce parti, sans seulement avoir
@@ -652,8 +715,7 @@
                marquer que dans un âge si tendre je n’étais pas capable de changer de dessein,
                combien moins dans un âge où la raison nous doit affermir, marque évidente du tort
                que mes ennemis m’ont fait en m’attribuant la variété et l’inconstance.</p>
-            <p xml:id="P.25">Enfin je retournai chez <persName ref="#P5 #P6 #P7">mes chers
-                  parents </persName>
+            <p xml:id="P.25">Enfin je retournai chez <persName ref="#P5 #P6 #P7">mes chers parents </persName>
                <app>
                   <rdg wit="#A"> comblée</rdg>
                   <rdg wit="#W"> imbue</rdg>
@@ -673,10 +735,9 @@
                gagner. Mais il fut impossible, elle s’aigrit de plus en plus et paraissait
                inconsolable quand on lui parlait sur ce sujet. Mon Dieu, que vos voies sont
                admirables et vos pensées éloignées de celles des hommes. Chacun me destinait, l’un
-               d’un <anchor corresp="#facs_31"/>côté, l’autre de l’autre,
-               moi-même je m’attachais sans vue ni raisons où mon cœur seul me conduisait, et
-               c’était vous, Seigneur, qui étiez le mobile de tous ces mouvements pour me conduire
-               là où votre <app>
+               d’un <anchor corresp="#facs_31"/>côté, l’autre de l’autre, moi-même je m’attachais
+               sans vue ni raisons où mon cœur seul me conduisait, et c’était vous, Seigneur, qui
+               étiez le mobile de tous ces mouvements pour me conduire là où votre <app>
                   <rdg wit="#A"> sainte</rdg>
                </app> providence m’appelait.</p>
             <p xml:id="P.26" ana="#T7">
@@ -701,13 +762,13 @@
                fondis en larmes et je vous offris la prière de <persName ref="#P94">La
                   Placette</persName> dans le livre de <hi rend="italic">
                   <bibl ana="B17" status="draft">La Communion dévote</bibl>
-               </hi>, qui est <anchor corresp="#facs_32"/>destinée pour ceux
-               qui ont communié indignement. J’étais rongée de chagrin de ne savoir si je vous avais <app>
+               </hi>, qui est <anchor corresp="#facs_32"/>destinée pour ceux qui ont communié
+               indignement. J’étais rongée de chagrin de ne savoir si je vous avais <app>
                   <rdg wit="#A"> déplu</rdg>
                </app>, et je crus que vous aviez le bras levé pour m’anéantir à tous instants.</p>
-            <p xml:id="P.27">Les distractions continuelles dissipèrent bientôt mes alarmes,
-               et le temps effaçait mes craintes. Je trouvais bien dans l’intime de mon cœur que je
-               vous aimais, ô mon Dieu ; mais je sentais une aversion extraordinaire pour tous les
+            <p xml:id="P.27">Les distractions continuelles dissipèrent bientôt mes alarmes, et le
+               temps effaçait mes craintes. Je trouvais bien dans l’intime de mon cœur que je vous
+               aimais, ô mon Dieu ; mais je sentais une aversion extraordinaire pour tous les
                sermons et lectures de dévotion. Je n’aurais pas voulu pour ma vie offenser Dieu, et
                je ne pouvais vaincre mes répugnances pour le servir de la manière qu’on l’exigeait
                de moi. Je ne pouvais même réconcilier ces deux volontés en moi et c’était vous, ô
@@ -719,8 +780,8 @@
                   <rdg wit="#A"> en défaut</rdg>
                </app>, puisque comme il m’était impossible de trahir mes sentiments, ainsi je
                croyais de même tout ce qu’on me disait, ne pouvant jamais m’imaginer qu’on pouvait
-               me <anchor corresp="#facs_33"/>tromper. Je poussais ma bonne foi
-               si loin que j’étais toujours la dupe de mes camarades et <app>
+               me <anchor corresp="#facs_33"/>tromper. Je poussais ma bonne foi si loin que j’étais
+               toujours la dupe de mes camarades et <app>
                   <rdg wit="#A"> même</rdg>
                </app> de <persName ref="#P78 #P79">mes <app>
                      <rdg wit="#W"> deux</rdg>
@@ -732,10 +793,10 @@
                   <rdg wit="#W"> sotte</rdg>
                </app> , ce qui me faisait une peine infinie puisque alors ma passion était d’avoir
                de l’esprit.</p>
-            <p xml:id="P.28" ana="#T8">Vers la Saint-Jean de cette même année, <persName
-                  ref="#P81">mon père</persName> envoya un exprès où nous étions et écrivit une
-               lettre fort tendre et obligeante à <persName ref="#P5">ma tante</persName>, et la
-               pria de m’envoyer chez lui pour que je puisse accompagner <persName ref="#P82">ma
+            <p xml:id="P.28" ana="#T8">Vers la Saint-Jean de cette même année, <persName ref="#P81"
+                  >mon père</persName> envoya un exprès où nous étions et écrivit une lettre fort
+               tendre et obligeante à <persName ref="#P5">ma tante</persName>, et la pria de
+               m’envoyer chez lui pour que je puisse accompagner <persName ref="#P82">ma
                   belle-mère</persName> à <placeName ref="#O6">Berlin</placeName>, que le voyage ne
                serait que de six semaines et qu’il engageait sa parole que je reviendrai sans être
                promise. <persName ref="#P5">Ma tante</persName> pensa s’évanouir à cette nouvelle et
@@ -749,12 +810,12 @@
                de me suivre partout <app>
                   <rdg wit="#W"> et de m’épier de près</rdg>
                </app>. Je trouvai l’équipage de <persName ref="#P81">mon père</persName>
-               <anchor corresp="#facs_34"/>avec beaucoup de trains au
-               rendez-vous. Cela me donna d’abord en vue, et mon faible esprit joint à ma vanité me
-               fournirent un beau champ à bâtir des châteaux qui ne réussirent que dans mon idée. Je
-               le dis à cette <persName ref="#P416">bonne fille</persName> et lui fit entendre que
-               ce bruyant cortège valait mieux que la vieille calèche où nous étions venues. Elle
-               était fort sage et ne voulut point contredire à mes discours troublés, <app>
+               <anchor corresp="#facs_34"/>avec beaucoup de trains au rendez-vous. Cela me donna
+               d’abord en vue, et mon faible esprit joint à ma vanité me fournirent un beau champ à
+               bâtir des châteaux qui ne réussirent que dans mon idée. Je le dis à cette <persName
+                  ref="#P416">bonne fille</persName> et lui fit entendre que ce bruyant cortège
+               valait mieux que la vieille calèche où nous étions venues. Elle était fort sage et ne
+               voulut point contredire à mes discours troublés, <app>
                   <rdg wit="#A"> et ce fut</rdg>
                   <rdg wit="#W"> elle se tut</rdg>
                </app> pour conserver ma confiance. On me fit mille accueils là où nous passâmes la
@@ -770,10 +831,10 @@
                que <persName ref="#P5">ma tante</persName> m’avait donnée. <persName ref="#P82">Ma
                   belle-mère</persName> inventa plusieurs prétextes, mais je ne pouvais y consentir
                puisqu’il y avait de la dissimulation. Je fus assez innocente que de lui avouer mon
-                  <anchor corresp="#facs_35"/>scrupule. Elle en rit beaucoup et
-               me dit : « Hé, ma chère, comment ferez-vous dans le monde si vous n’apprenez à cacher
-               vos sentiments ? » Je fus frappée de ces paroles et je ne savais comment en pénétrer
-               le sens, <app>
+                  <anchor corresp="#facs_35"/>scrupule. Elle en rit beaucoup et me dit : « Hé, ma
+               chère, comment ferez-vous dans le monde si vous n’apprenez à cacher vos
+               sentiments ? » Je fus frappée de ces paroles et je ne savais comment en pénétrer le
+               sens, <app>
                   <rdg wit="#W"> je crus qu’il y avait d’étude à apprendre cette science,</rdg>
                </app>et je lui dis avec beaucoup de vivacité qui m’était alors fort naturelle, que
                j’espérais qu’elle me ferait la grâce de me l’apprendre. Ô mon Dieu, c’était là où
@@ -783,8 +844,7 @@
                   <persName ref="#P82">ma belle-mère</persName> écrivit à <persName ref="#P5">ma
                   tante</persName> qu’elle ne pouvait pas la priver d’une personne si fidèle et
                qu’elle aurait elle-même soin de moi.</p>
-            <p xml:id="P.29">Nous partîmes le lendemain, et <persName ref="#P81">mon
-                  père</persName>
+            <p xml:id="P.29">Nous partîmes le lendemain, et <persName ref="#P81">mon père</persName>
                <app>
                   <rdg wit="#A"> me</rdg>
                   <rdg wit="#W"> nous</rdg>
@@ -793,11 +853,11 @@
                l’ancienne voiture et l’éblouissement des grandeurs, votre saint Nom en soit loué.
                   <persName ref="#P82">Ma belle-mère</persName> n’avait que de ces berlines à deux
                personnes. <persName ref="#P81">Mon père</persName> s’y mit avec elle, et l’on me mit
-               dans le magasin qui était <anchor corresp="#facs_36"/>ouvert de
-               tous côtés. C’était dans la moitié de <date type="month" when-iso="--07"
-                  >juillet</date>, et le soleil qui était des plus ardents me donnait aplomb sur la
-               tête, cela me donna une terrible migraine sans que j’osasse seulement faire semblant
-               que cela m’incommodait. Mais ce fut bien pire l’après-midi. Il s’éleva une tempête <app>
+               dans le magasin qui était <anchor corresp="#facs_36"/>ouvert de tous côtés. C’était
+               dans la moitié de <date type="month" when-iso="--07">juillet</date>, et le soleil qui
+               était des plus ardents me donnait aplomb sur la tête, cela me donna une terrible
+               migraine sans que j’osasse seulement faire semblant que cela m’incommodait. Mais ce
+               fut bien pire l’après-midi. Il s’éleva une tempête <app>
                   <rdg wit="#W"> terrible</rdg>
                </app>, d’éclair, de tonnerre et une grosse pluie qui <app>
                   <rdg wit="#A"> m’incommodait et</rdg>
@@ -814,8 +874,8 @@
                aimant mes commodités passionnément, et être obligée par respect de faire semblant
                d’être contente. Ce fut là ma première leçon où j’appris à cacher mes sentiments,
                mais elle me coûta <anchor corresp="#facs_37"/>cher.</p>
-            <p xml:id="P.30" ana="#T9">Nous arrivâmes qu’il était nuit et n’ayant personne
-               que <persName ref="#P418">la fille de chambre</persName> de <persName ref="#P82">ma
+            <p xml:id="P.30" ana="#T9">Nous arrivâmes qu’il était nuit et n’ayant personne que
+                  <persName ref="#P418">la fille de chambre</persName> de <persName ref="#P82">ma
                   [belle-]mère</persName> pour me servir, je devais attendre que son service fut
                fini. Je n’en pouvais plus, ma douleur de tête m’ôtait les sentiments, et je fus
                forcée à demander à <persName ref="#P82">ma belle-mère</persName> la permission de me
@@ -836,9 +896,9 @@
                le secret, surtout contre <persName ref="#P82">sa maîtresse</persName> ; mais j’avais
                une si sotte bonté de cœur que je me fiais à tout le monde dès qu’on me regardait
                obligeamment. <persName ref="#P418">Cette fille</persName> rit de mon désespoir, et
-               me dit : « Quoi, vous voulez <anchor corresp="#facs_38"/>voir
-               les beautés de <placeName ref="#O6">Berlin</placeName> et vous voilà rebutée ? » Cela
-               fit d’abord que j’eus beaucoup de honte. Je crus que c’était un reproche <app>
+               me dit : « Quoi, vous voulez <anchor corresp="#facs_38"/>voir les beautés de
+                  <placeName ref="#O6">Berlin</placeName> et vous voilà rebutée ? » Cela fit d’abord
+               que j’eus beaucoup de honte. Je crus que c’était un reproche <app>
                   <rdg wit="#A"> indiscret</rdg>
                   <rdg wit="#W"> indirect</rdg>
                </app> de mes délicatesses. Je m’apaisai le mieux qu’il me fut possible. Mais
@@ -860,10 +920,10 @@
                elle le fit remarquer à <persName ref="#P81">mon père</persName>. Il a le cœur fort
                tendre, et j’eus la <app>
                   <rdg wit="#W"> douce</rdg>
-               </app> consolation qu’on me plaignit <anchor corresp="#facs_39"
-               />et qu’on admira même ma patience. J’étais charmée alors, et j’oubliai tout mes
-               chagrins, tant on pouvait me gagner par douceur au lieu que les reproches et les
-               mépris me rendaient stupide et insupportable à moi-même <app>
+               </app> consolation qu’on me plaignit <anchor corresp="#facs_39"/>et qu’on admira même
+               ma patience. J’étais charmée alors, et j’oubliai tout mes chagrins, tant on pouvait
+               me gagner par douceur au lieu que les reproches et les mépris me rendaient stupide et
+               insupportable à moi-même <app>
                   <rdg wit="#W"> et aux autres</rdg>
                </app>. Mais vous m’avez conduit, mon Dieu, par bien d’autres épreuves, où j’ai dû
                souffrir des reproches et des mépris bien plus cruels et me taire. Vous l’avez voulu
@@ -883,14 +943,14 @@
                </app> lieues de <placeName ref="#O6">Berlin</placeName> sur le soir. Le <persName
                   ref="#P169">père</persName> de <persName ref="#P82">ma belle-mère</persName>
                <placeName ref="#O86">y</placeName> était gouverneur. Elle alla loger au château, on
-               lui dit <anchor corresp="#facs_40"/>qu’on y attendait <persName
-                  ref="#P169">monsieur son père</persName> et qu’il la priait de rester là jusqu’à
-               son arrivée. Nous n’attendîmes pas longtemps, il vint la même nuit. <persName
-                  ref="#P82">Ma belle-mère</persName> m’avait ordonné de ne pas l’attendre, ainsi je
-               me retirai. Mais comme je couchais dans sa chambre, mon invincible curiosité ne me
-               permit pas de m’endormir. Dès qu’il fut arrivé, j’entendis tout le plan qu’on faisait
-               pour moi et la parole que <persName ref="#P81">mon père</persName> avait donnée à
-                  <persName ref="#P5">ma tante</persName> que je ne serai point promise à <app>
+               lui dit <anchor corresp="#facs_40"/>qu’on y attendait <persName ref="#P169">monsieur
+                  son père</persName> et qu’il la priait de rester là jusqu’à son arrivée. Nous
+               n’attendîmes pas longtemps, il vint la même nuit. <persName ref="#P82">Ma
+                  belle-mère</persName> m’avait ordonné de ne pas l’attendre, ainsi je me retirai.
+               Mais comme je couchais dans sa chambre, mon invincible curiosité ne me permit pas de
+               m’endormir. Dès qu’il fut arrivé, j’entendis tout le plan qu’on faisait pour moi et
+               la parole que <persName ref="#P81">mon père</persName> avait donnée à <persName
+                  ref="#P5">ma tante</persName> que je ne serai point promise à <app>
                   <rdg wit="#A"> ce voyage-là</rdg>
                   <rdg wit="#W"><placeName ref="#O6">Berlin</placeName></rdg>
                </app>. Ce qui me surprit le plus, c’est que j’appris que le <persName ref="#P162"
@@ -901,17 +961,16 @@
                j’aiderai leur famille à se tirer d’un si mauvais pas. Il est impossible que je
                dépeigne ici mes différents sentiments et l’horreur que je sentis de mon voyage.
                D’abord ma vanité me domina. Je trouvai indigne les ingratitudes que je faisais
-                  <anchor corresp="#facs_41"/>à <persName ref="#P5">ma
-                  tante</persName> pour un homme qui ne pensait pas à moi et que je me livrais en
-               victime à une famille qui ne m’aimait que pour ses intérêts communs. J’étais résolue
-               de faire comme j’avais fait à la <app>
+                  <anchor corresp="#facs_41"/>à <persName ref="#P5">ma tante</persName> pour un
+               homme qui ne pensait pas à moi et que je me livrais en victime à une famille qui ne
+               m’aimait que pour ses intérêts communs. J’étais résolue de faire comme j’avais fait à
+               la <app>
                   <rdg wit="#A"><placeName ref="#O57">Haye</placeName></rdg>
                </app>, payer d’honnêteté et m’en retourner sans m’engager ; mais ces desseins
                étaient trop mondains, ô mon Dieu, pour que vous y voulussiez consentir. Aussi le
                contraire arriva.</p>
             <p xml:id="P.32">Le lendemain nous partîmes pour <placeName ref="#O6"
-                  >Berlin</placeName>. Je fus charmée des beautés des environs, mais bien plus
-               encore <app>
+               >Berlin</placeName>. Je fus charmée des beautés des environs, mais bien plus encore <app>
                   <rdg wit="#A"> de la beauté</rdg>
                </app> de la ville dont les bâtiments superbes m’étonnèrent. <app>
                   <rdg wit="#A"> Nous arrivâmes à la fin à cette maison tant désirée.</rdg>
@@ -927,8 +986,8 @@
                j’étais extrêmement grandie, ainsi il me méconnut. J’en sentis une secrète joie,
                espérant qu’il me trouverait plus <app>
                   <rdg wit="#W"> de</rdg>
-               </app> l’air du monde <anchor corresp="#facs_42"/>qu’il n’avait
-               fait autrefois. Mon Dieu, dans quel aveuglement étais-je <app>
+               </app> l’air du monde <anchor corresp="#facs_42"/>qu’il n’avait fait autrefois. Mon
+               Dieu, dans quel aveuglement étais-je <app>
                   <rdg wit="#A"> que</rdg>
                </app> je prenais pour perfection ce que vous détestez <app>
                   <rdg wit="#W"> et tous mes soins n’aboutissaient qu’à vous déplaire</rdg>
@@ -946,8 +1005,8 @@
                   <rdg wit="#W"> petites</rdg>
                </app> mortifications me rendraient d’une humeur plus douce, plus complaisante, et
                qu’il fallait s’en réjouir. Il ne fut point de cet avis et crut avec raison qu’on me
-               rendrait plus stupide <anchor corresp="#facs_43"/>par là. Il
-               était assez extraordinaire que dans les lieux où <app>
+               rendrait plus stupide <anchor corresp="#facs_43"/>par là. Il était assez
+               extraordinaire que dans les lieux où <app>
                   <rdg wit="#A"> j’étais</rdg>
                </app> élevée, je passais <app>
                   <rdg wit="#A"> parfois</rdg>
@@ -961,9 +1020,9 @@
                   <rdg wit="#A"> toujours</rdg>
                   <rdg wit="#W"> tour à tour</rdg>
                </app> .</p>
-            <p xml:id="P.33">Le <persName ref="#P162">comte de Schwerin</persName> me fit
-               le rapport de la conversation qu’il avait eue avec <persName ref="#P82">ma
-                  belle-mère</persName>. Il me trouva le visage tout en larmes du repentir d’avoir
+            <p xml:id="P.33">Le <persName ref="#P162">comte de Schwerin</persName> me fit le rapport
+               de la conversation qu’il avait eue avec <persName ref="#P82">ma
+               belle-mère</persName>. Il me trouva le visage tout en larmes du repentir d’avoir
                quitté <persName ref="#P5 #P6 #P7">mes bons parents </persName> et surtout de la vie
                que je voyais mener. Jamais ni matin ni soir, je ne voyais faire de prières, et on ne
                m’en donnait point le temps. J’en sentais des inquiétudes extrêmes. Le <persName
@@ -971,10 +1030,10 @@
                lui dis naturellement que je n’étais pas accoutumée aux manières du monde et que
                j’avais beaucoup de peine à m’y faire. Il en parut surpris et me témoigna souhaiter
                pouvoir dissiper mes chagrins, et me parla très sérieusement des vues <anchor
-                  corresp="#facs_44"/>de sa famille et de la mienne. Je puis dire
-               avec vérité que dans ce moment, et la seule fois de ma vie, je croyais que je le
-               haïssais. Je le crus complice avec tous les autres, qui me jouaient à tout moment,
-               ayant encore l’esprit rempli de ce que j’avais ouï <app>
+                  corresp="#facs_44"/>de sa famille et de la mienne. Je puis dire avec vérité que
+               dans ce moment, et la seule fois de ma vie, je croyais que je le haïssais. Je le crus
+               complice avec tous les autres, qui me jouaient à tout moment, ayant encore l’esprit
+               rempli de ce que j’avais ouï <app>
                   <rdg wit="#A"> dire</rdg>
                </app> à <persName ref="#P169">son père</persName> de son nouvel attachement. Et on
                me reprochait même journellement que si j’avais cru en venant à <placeName ref="#O6"
@@ -988,15 +1047,15 @@
                la manière dont on me traitait en ridicule à tout moment que cela m’avait aigri,
                joint à son engagement. Il m’assura qu’il était rompu, et qu’il m’en porterait le
                lendemain les assurances, qu’il n’était pas de ceux qui voulaient me duper, et qu’il
-               me donnerait toutes les certitudes que je pouvais <anchor
-                  corresp="#facs_45"/>prétendre. Je n’en voulus accepter aucune jusqu’au consentement
-               de <persName ref="#P81">mon père</persName>. Il n’accepta point mon refus à s’engager
-               par beaucoup de serments, quoique je restai libre encore plusieurs mois. Il fit taire
-               dès lors tous les railleurs, et je commençais à respirer, surtout lorsque le
-                  <persName ref="#P162">comte de Schwerin</persName> me porta et remit à ma
-               disposition tous les engagements qu’il avait eus avec la <persName ref="#P419">dame
-                  de la Cour</persName>. Il me pria d’accepter du moins une bague de sa part, et je
-               la pris et brûlai tous les papiers qu’il m’avait portés en sa présence. Agissez-en de
+               me donnerait toutes les certitudes que je pouvais <anchor corresp="#facs_45"
+               />prétendre. Je n’en voulus accepter aucune jusqu’au consentement de <persName
+                  ref="#P81">mon père</persName>. Il n’accepta point mon refus à s’engager par
+               beaucoup de serments, quoique je restai libre encore plusieurs mois. Il fit taire dès
+               lors tous les railleurs, et je commençais à respirer, surtout lorsque le <persName
+                  ref="#P162">comte de Schwerin</persName> me porta et remit à ma disposition tous
+               les engagements qu’il avait eus avec la <persName ref="#P419">dame de la
+                  Cour</persName>. Il me pria d’accepter du moins une bague de sa part, et je la
+               pris et brûlai tous les papiers qu’il m’avait portés en sa présence. Agissez-en de
                même, <persName ref="#P154 #P159 #P160 #P165 #P167">mes chers enfants </persName>,
                n’entrez jamais dans les mystères des autres de trop près, quand on vous les sacrifie
                pour conserver leur confiance et l’estime due à votre modération.</p>
@@ -1031,10 +1090,9 @@
                promis, quoi que j’eusse accepté les promesses du <persName ref="#P162">comte de
                   Schwerin</persName>. Enfin, il fallut lui rendre cette bague et elle <anchor
                   corresp="#facs_47"/>se contenta de ma soumission.</p>
-            <p xml:id="P.35">J’étais au désespoir de me voir ballottée tantôt d’un côté
-               tantôt de l’autre, et je n’osais me fier à personne. Quel bonheur était le mien, ô
-               mon Dieu, puisque dans ces intervalles je revenais d’abord à vous comme à un ami
-               fidèle. Vous <app>
+            <p xml:id="P.35">J’étais au désespoir de me voir ballottée tantôt d’un côté tantôt de
+               l’autre, et je n’osais me fier à personne. Quel bonheur était le mien, ô mon Dieu,
+               puisque dans ces intervalles je revenais d’abord à vous comme à un ami fidèle. Vous <app>
                   <rdg wit="#A"> m’excusiez</rdg>
                   <rdg wit="#W"> m'exauciez</rdg>
                </app> puisque vous effaciez d’abord tous mes chagrins, et les plus sensibles
@@ -1055,42 +1113,40 @@
                   <persName ref="#P66">la Reine</persName>, que je n’avais <app>
                   <rdg wit="#W"> encore</rdg>
                </app> jamais vue. On l’avait préparée à voir une jeune innocente et qu’il n’y avait
-               rien <anchor corresp="#facs_48"/>de si naïf que mes répliques.
-               Comme il faut souvent fort peu pour divertir les grands seigneurs, elle se fit fête
-               de ma vue, et la Cour était ce jour la plus grosse qu’elle n’avait été de longtemps.
-               Dès ce qu’elle vit <persName ref="#P82">ma belle-mère</persName>, elle la remercia de
-               m’avoir menée, comme si j’eusse été une curiosité. Elle me salua enfin après m’avoir
-               demandé comment je me portais dans le pays, et si je n’étais pas surprise de me
-               trouver dans une cour si nombreuse. Je lui dis naturellement que rien ne m’étonnait
-               que d’oser me présenter devant elle. Ma réponse soumise la toucha et en marquant son
-               étonnement avec un air fort sérieux pourquoi qu’on m’avait tant décriée, j’eus le
-               bonheur de <app>
+               rien <anchor corresp="#facs_48"/>de si naïf que mes répliques. Comme il faut souvent
+               fort peu pour divertir les grands seigneurs, elle se fit fête de ma vue, et la Cour
+               était ce jour la plus grosse qu’elle n’avait été de longtemps. Dès ce qu’elle vit
+                  <persName ref="#P82">ma belle-mère</persName>, elle la remercia de m’avoir menée,
+               comme si j’eusse été une curiosité. Elle me salua enfin après m’avoir demandé comment
+               je me portais dans le pays, et si je n’étais pas surprise de me trouver dans une cour
+               si nombreuse. Je lui dis naturellement que rien ne m’étonnait que d’oser me présenter
+               devant elle. Ma réponse soumise la toucha et en marquant son étonnement avec un air
+               fort sérieux pourquoi qu’on m’avait tant décriée, j’eus le bonheur de <app>
                   <rdg wit="#A"> m’attirer</rdg>
                   <rdg wit="#W"> m'acquérir</rdg>
                </app> son approbation dans le temps que toute la Cour s’attendait que je lui
                donnerais la comédie.</p>
-            <p xml:id="P.36">Voilà comme dès mon enfance, mes ennemis m’ont dépeinte et
-               voulurent ôter tout soutien et appui par l’envie que leur causait mon mariage avec le
-                  <persName ref="#P162">comte de Schwerin</persName>. <persName ref="#P66">La
-                  Reine</persName> me parla toujours d’un air très sérieux, et défendit <anchor
-                  corresp="#facs_49"/>qu’on osât me railler à la Cour, disant :
-               « Vous étourdirez cette pauvre fille, laissez-lui ses répliques innocentes, le
-               raffinement ne viendra que trop tôt. » Elle avait raison, et j’aurais été fort
-               heureuse qu’on ne se fût point tant pressé à aiguiser mon esprit, il ne m’aurait pas
-               attiré tant d’amour-propre ni de peine à présent de le simplifier.</p>
-            <p xml:id="P.37" ana="#T11">Notre retour pour <placeName ref="#O103"
-                  >Wesel</placeName> s’approcha. Le <persName ref="#P169">père du comte de
-                  Schwerin</persName> m’avait accablée d’honneurs, de présents et de marques
-               d’amitié. Il était charmé des pas que <persName ref="#P162">son fils</persName>
-               faisait pour moi, et tout disgracié qu’il avait été jusqu’alors, il s’attira sa
-               tendresse de nouveau. L’approbation de <persName ref="#P66">la Reine</persName> me
-               donnait beaucoup de repos, et on crut voir par ses yeux que mon innocence n’était pas
-               un si grand défaut. Cela me charmait. J’étais sensible dès lors aux applaudissements.
-               Je sentais bien qu’elle me donnait du courage à faire mieux, mais je ne comprenais
-               pas la vanité qu’il y avait à la rechercher. Nous partîmes <anchor
-                  corresp="#facs_50"/>peu de jours après le jour de ma naissance.
-                  <persName ref="#P82">Ma belle-mère</persName> me rendit ce jour-là la bague du
-                  <persName ref="#P162">comte de Schwerin</persName> et me fit entendre que
+            <p xml:id="P.36">Voilà comme dès mon enfance, mes ennemis m’ont dépeinte et voulurent
+               ôter tout soutien et appui par l’envie que leur causait mon mariage avec le <persName
+                  ref="#P162">comte de Schwerin</persName>. <persName ref="#P66">La Reine</persName>
+               me parla toujours d’un air très sérieux, et défendit <anchor corresp="#facs_49"
+               />qu’on osât me railler à la Cour, disant : « Vous étourdirez cette pauvre fille,
+               laissez-lui ses répliques innocentes, le raffinement ne viendra que trop tôt. » Elle
+               avait raison, et j’aurais été fort heureuse qu’on ne se fût point tant pressé à
+               aiguiser mon esprit, il ne m’aurait pas attiré tant d’amour-propre ni de peine à
+               présent de le simplifier.</p>
+            <p xml:id="P.37" ana="#T11">Notre retour pour <placeName ref="#O103">Wesel</placeName>
+               s’approcha. Le <persName ref="#P169">père du comte de Schwerin</persName> m’avait
+               accablée d’honneurs, de présents et de marques d’amitié. Il était charmé des pas que
+                  <persName ref="#P162">son fils</persName> faisait pour moi, et tout disgracié
+               qu’il avait été jusqu’alors, il s’attira sa tendresse de nouveau. L’approbation de
+                  <persName ref="#P66">la Reine</persName> me donnait beaucoup de repos, et on crut
+               voir par ses yeux que mon innocence n’était pas un si grand défaut. Cela me charmait.
+               J’étais sensible dès lors aux applaudissements. Je sentais bien qu’elle me donnait du
+               courage à faire mieux, mais je ne comprenais pas la vanité qu’il y avait à la
+               rechercher. Nous partîmes <anchor corresp="#facs_50"/>peu de jours après le jour de
+               ma naissance. <persName ref="#P82">Ma belle-mère</persName> me rendit ce jour-là la
+               bague du <persName ref="#P162">comte de Schwerin</persName> et me fit entendre que
                l’honnêteté <app>
                   <rdg wit="#A"> voulait</rdg>
                   <rdg wit="#W"> demandait</rdg>
@@ -1108,9 +1164,9 @@
                douceurs. Je vous offris, mon Dieu, tous les chagrins et les peines que j’avais eus.
                Je croyais que vous les ignoriez, ayant eu si peu de temps à vous le dire.</p>
             <p xml:id="P.38" ana="#T12">Dès que nous fûmes à <placeName ref="#O103"
-                  >Wesel</placeName>, on m’en<anchor corresp="#facs_51"/>voya
-               chez <persName ref="#P80">mon oncle</persName> qui ne demeurait qu’à douze lieues de
-               chez <persName ref="#P5">ma tante</persName>. <persName ref="#P28">Madame sa
+                  >Wesel</placeName>, on m’en<anchor corresp="#facs_51"/>voya chez <persName
+                  ref="#P80">mon oncle</persName> qui ne demeurait qu’à douze lieues de chez
+                  <persName ref="#P5">ma tante</persName>. <persName ref="#P28">Madame sa
                   femme</persName> s’empressa de donner cette nouvelle à <persName ref="#P5">ma
                   tante</persName> et lui donna rendez-vous à <placeName ref="#O142"
                   >Zutphen</placeName>, <app>
@@ -1129,10 +1185,10 @@
                sont-elles du <persName ref="#P162">comte de Schwerin</persName> ? » Je n’avais pas
                encore l’effronterie de lui mentir hardiment, mais en biaisant je lui dis que c’était
                   <persName ref="#P683">d’une de mes amies de là</persName>, cela était vrai
-               puisqu’elle l’avait mis dans sa <anchor corresp="#facs_52"
-               />lettre. Voilà pas à pas comme je m’accoutumais à la dissimulation. Jusque là, mon
-               Dieu, je craignais beaucoup de vous offenser, et je m’inquiétais extrêmement comment
-               cacher ma correspondance sans mentir puisque je rougissais d’abord, ce qui <app>
+               puisqu’elle l’avait mis dans sa <anchor corresp="#facs_52"/>lettre. Voilà pas à pas
+               comme je m’accoutumais à la dissimulation. Jusque là, mon Dieu, je craignais beaucoup
+               de vous offenser, et je m’inquiétais extrêmement comment cacher ma correspondance
+               sans mentir puisque je rougissais d’abord, ce qui <app>
                   <rdg wit="#W"> encore</rdg>
                </app> augmentait ma peine. Je m’avisai de faire aller mes lettres dans le couvert de
                   <persName ref="#P79">mon frère aîné</persName>, qui eut la complaisance pour moi
@@ -1147,12 +1203,12 @@
                <persName ref="#P5">Ma tante</persName> fut plusieurs mois sans pouvoir rien
                pénétrer. Elle m’avait donné <persName ref="#P420">une fille</persName> pour me
                servir que j’eus bientôt engagée dans mes intérêts, J’ose même dire <anchor
-                  corresp="#facs_53"/>que c’était mon malheur que toutes ces
-               sortes de gens s’attachaient et s’affectionnaient si fort à moi, qu’ils auraient
-               plutôt trahi leur maître que de me faire la moindre infidélité. Mais cela n’a pas
-               duré, puisque depuis mon mariage, je n’en ai point trouvé de ce caractère. Nous
-               arrêtâmes un <persName ref="#P421">petit garçon</persName> qui enlevait les lettres à
-               la poste dès qu’elles arrivaient et qui les portait à des heures <app>
+                  corresp="#facs_53"/>que c’était mon malheur que toutes ces sortes de gens
+               s’attachaient et s’affectionnaient si fort à moi, qu’ils auraient plutôt trahi leur
+               maître que de me faire la moindre infidélité. Mais cela n’a pas duré, puisque depuis
+               mon mariage, je n’en ai point trouvé de ce caractère. Nous arrêtâmes un <persName
+                  ref="#P421">petit garçon</persName> qui enlevait les lettres à la poste dès
+               qu’elles arrivaient et qui les portait à des heures <app>
                   <rdg wit="#A"> indues</rdg>
                   <rdg wit="#W"> indiquées</rdg>
                </app> à <persName ref="#P420">cette fille</persName>. Ce manège dura plusieurs mois,
@@ -1165,9 +1221,9 @@
                divertissement, <persName ref="#P5">ma tante</persName> fit ouvrir ma cassette et n’y
                trouva que trop de témoignages de mon ingratitude envers elle. Elle fit faire une
                clef de même qu’était la serrure, on avait ordre de m’amuser tout le <anchor
-                  corresp="#facs_54"/>jour à cette partie, ainsi que tout fut fait
-               à mon retour. Mais je n’avais pu vaincre pendant toute cette journée un battement de
-               cœur extraordinaire, et comme un remord intérieur de la tromperie que je faisais à la
+                  corresp="#facs_54"/>jour à cette partie, ainsi que tout fut fait à mon retour.
+               Mais je n’avais pu vaincre pendant toute cette journée un battement de cœur
+               extraordinaire, et comme un remord intérieur de la tromperie que je faisais à la
                personne du monde qui m’avait fait le plus de bien. Je la trouvai toute en larmes à
                mon retour. Elle me dit qu’une migraine causait le désordre de ses yeux, mais je ne
                pus le croire, et je fus d’abord examiner ma cassette. N’y trouvant aucun changement,
@@ -1178,11 +1234,11 @@
                ambition à paraître spirituelle. <app>
                   <rdg wit="#A"> Cela</rdg>
                </app> me donnait plus d’attention que je n’en aurais pu avoir pour les <anchor
-                  corresp="#facs_55"/>instructions du meilleur maître. Je lisais
-               beaucoup et je volais de ces lectures les pensées qui me pouvaient convenir le mieux.
-               Enfin j’écrivais au clair de la lune, ou le soir à quelques moments que je
-               m’échappais. Dans ces circonstances, j’étais dans une inquiétude continuelle et dans
-               des agitations inexprimables. J’avais bien des retours pour vous, ô mon <app>
+                  corresp="#facs_55"/>instructions du meilleur maître. Je lisais beaucoup et je
+               volais de ces lectures les pensées qui me pouvaient convenir le mieux. Enfin
+               j’écrivais au clair de la lune, ou le soir à quelques moments que je m’échappais.
+               Dans ces circonstances, j’étais dans une inquiétude continuelle et dans des
+               agitations inexprimables. J’avais bien des retours pour vous, ô mon <app>
                   <rdg wit="#W"> doux</rdg>
                </app> Jésus. Combien de fois dans le bois ou dans les jardins ne vous plaignais-je
                pas mon sort ; mais, mon Dieu, je le faisais sans une intention pure et sans être
@@ -1197,24 +1253,23 @@
                sœurs. Je la destinais à un de <persName ref="#P78 #P79">mes frères </persName>, elle
                voulait me donner <persName ref="#P424">le sien</persName>. Dans ma religion d’alors,
                ces mariages étaient permis. Nous étions unies de cœur et de senti<anchor
-                  corresp="#facs_56"/>ment, ainsi j’étais charmée de la voir. Je
-               lui fis confidence de tous mes petits chagrins, elle m’aimait trop pour n’y pas
-               compatir et applaudir en tout égard. On nous appelait les inséparables, plût à Dieu
-               que nous le fussions encore et que le lien de la foi rendît notre union indissoluble.
-               Elle me fortifia dans mon penchant. Elle haïssait encore plus les h. qu’ils ne
-               m’étaient indifférents. Il y eut dans ce temps-là chez nous un concours de monde.
-               L’endroit était charmant de lui-même par la beauté des environs, et les hôtes étaient
-               les personnes du monde les plus obligeantes. <persName ref="#P80">Mon
-                  oncle</persName> qui était fort sévère et que depuis mon enfance j’avais toujours
-               craint beaucoup, et lui avais même donné le nom de l’oncle-qui-examine-de-si-près,
-               m’observa plus que jamais et vint <app>
+                  corresp="#facs_56"/>ment, ainsi j’étais charmée de la voir. Je lui fis confidence
+               de tous mes petits chagrins, elle m’aimait trop pour n’y pas compatir et applaudir en
+               tout égard. On nous appelait les inséparables, plût à Dieu que nous le fussions
+               encore et que le lien de la foi rendît notre union indissoluble. Elle me fortifia
+               dans mon penchant. Elle haïssait encore plus les h. qu’ils ne m’étaient indifférents.
+               Il y eut dans ce temps-là chez nous un concours de monde. L’endroit était charmant de
+               lui-même par la beauté des environs, et les hôtes étaient les personnes du monde les
+               plus obligeantes. <persName ref="#P80">Mon oncle</persName> qui était fort sévère et
+               que depuis mon enfance j’avais toujours craint beaucoup, et lui avais même donné le
+               nom de l’oncle-qui-examine-de-si-près, m’observa plus que jamais et vint <app>
                   <rdg wit="#W"> un jour</rdg>
                </app> me trouver dans ma chambre. J’étais très bien logée et une de mes passions
                était un cabinet. On m’en avait fait bâtir un exprès pour me contenter, et c’était
                mon délice. Vous l’avez bien vu, ô mon Dieu, puisque depuis que je l’ai quitté, vous
-               n’avez jamais permis que j’en eusse de pareil pour <anchor
-                  corresp="#facs_57"/>me détacher de tout. <persName ref="#P80">Mon oncle</persName>
-               voulut tout voir et me questionna beaucoup sur mes occupations, lecture, <app>
+               n’avez jamais permis que j’en eusse de pareil pour <anchor corresp="#facs_57"/>me
+               détacher de tout. <persName ref="#P80">Mon oncle</persName> voulut tout voir et me
+               questionna beaucoup sur mes occupations, lecture, <app>
                   <rdg wit="#W"> des livres</rdg>
                   <rdg wit="#A"> etc</rdg>
                </app> . Il voulut voir ma bibliothèque, je n’en fis point de difficulté. Il fit le
@@ -1226,16 +1281,16 @@
                de m’expliquer la <bibl ana="#B34" status="draft">Bible</bibl>. Plût à Dieu qu’il
                l’eût fait, j’eusse peut-être plutôt compris la contradiction et l’absurdité des
                explications réformées.</p>
-            <p xml:id="P.41">Cette histoire me fit beaucoup de tort puisqu’on m’observa
-               plus que jamais, et cette contrainte m’apprit à mentir et à chercher mille détours
-               pour me cacher. Je devins rusée et dissimulée, et il n’y eut sortes de pratiques que
-               nous n’inventions, <persName ref="#P422">ma cousine</persName> et moi, pour tromper
-               nos parents. Nous usions d’une contrainte extérieure si parfaite qu’ils y furent
-               bientôt trompés. Elle aimait la lecture autant que moi, et on nous avait défendu la
-               lecture, hors celle des livres de dévotion. Cela fit <anchor
-                  corresp="#facs_58"/>qu’il y en avait toujours un de prêt en cas de surprise, pendant
-               que nous passions les nuits à lire mille fadaises et vanités. Mon Dieu, quelle
-               indignité, votre service était le prétexte pour cacher nos mondanités.</p>
+            <p xml:id="P.41">Cette histoire me fit beaucoup de tort puisqu’on m’observa plus que
+               jamais, et cette contrainte m’apprit à mentir et à chercher mille détours pour me
+               cacher. Je devins rusée et dissimulée, et il n’y eut sortes de pratiques que nous
+               n’inventions, <persName ref="#P422">ma cousine</persName> et moi, pour tromper nos
+               parents. Nous usions d’une contrainte extérieure si parfaite qu’ils y furent bientôt
+               trompés. Elle aimait la lecture autant que moi, et on nous avait défendu la lecture,
+               hors celle des livres de dévotion. Cela fit <anchor corresp="#facs_58"/>qu’il y en
+               avait toujours un de prêt en cas de surprise, pendant que nous passions les nuits à
+               lire mille fadaises et vanités. Mon Dieu, quelle indignité, votre service était le
+               prétexte pour cacher nos mondanités.</p>
             <p xml:id="P.42">
                <persName ref="#P5">Ma tante</persName> se résolut d’aller passer quelque temps chez
                   <persName ref="#P80">mon oncle</persName>. Elle avait <persName ref="#P425">des
@@ -1253,20 +1308,19 @@
                inexprimable pour <placeName ref="#O22">ce pays</placeName>. Je le croyais barbare,
                et je lui en écrivis dans des termes si touchants que cela m’attira des assurances
                plus fortes de sa part que je n’en avais encore eues jusque là. Et cette même lettre
-               m’a été ensuite très nécessaire pour lui <anchor
-                  corresp="#facs_59"/>marquer dans le commencement de mes malheurs combien par un
-               instinct surnaturel j’avais prévu <app>
+               m’a été ensuite très nécessaire pour lui <anchor corresp="#facs_59"/>marquer dans le
+               commencement de mes malheurs combien par un instinct surnaturel j’avais prévu <app>
                   <rdg wit="#A"> dix</rdg>
                   <rdg wit="#W"> 18</rdg>
                </app> ans d’avance la fatalité qui m’y est arrivée, et que humainement on ne peut
                attribuer qu’à <placeName ref="#O22">ce malheureux pays</placeName>.</p>
-            <p xml:id="P.43">Mais j’en reviens à ma narration. Vers le Noël nous
-               retournâmes chez ce <persName ref="#P6">beau-frère</persName> de <persName ref="#P5"
-                  >ma tante</persName> où nous demeurions l’hiver. Il y avait cette année une
-               nombreuse garnison et quantité de noblesse. <persName ref="#P5">Ma tante</persName>
-               me produisait partout dans l’espérance de me rendre plus docile à ses desseins. Il
-               n’y avait point de fête, de festin, ni de musique dont je n’étais. J’en étais si
-               rebutée que cela me rendait intraitable, et je rebutais avec aigreur tous ceux qui
+            <p xml:id="P.43">Mais j’en reviens à ma narration. Vers le Noël nous retournâmes chez ce
+                  <persName ref="#P6">beau-frère</persName> de <persName ref="#P5">ma
+                  tante</persName> où nous demeurions l’hiver. Il y avait cette année une nombreuse
+               garnison et quantité de noblesse. <persName ref="#P5">Ma tante</persName> me
+               produisait partout dans l’espérance de me rendre plus docile à ses desseins. Il n’y
+               avait point de fête, de festin, ni de musique dont je n’étais. J’en étais si rebutée
+               que cela me rendait intraitable, et je rebutais avec aigreur tous ceux qui
                m’approchaient. Cela m’attira le nom d’ambitieuse et que je me croyais au-dessus de
                tout le monde. Mais je ne l’étais pas, car <app>
                   <rdg wit="#A"> j’étais trop timide pour me rien imaginer, et quand on me
@@ -1275,8 +1329,8 @@
                je les voyais d’embarras. J’étais sans expérience et sans être conduite, il n’était
                pas étonnant que je manquasse à tout moment. Je sentais bien que ni le titre du
                   <persName ref="#P162">comte de Schwerin</persName> ni les richesses qu’on lui
-               attribuaient ne me <anchor corresp="#facs_60"/>touchaient pas,
-               puisque vingt fois et davantage je souhaitais qu’il ne fut <app>
+               attribuaient ne me <anchor corresp="#facs_60"/>touchaient pas, puisque vingt fois et
+               davantage je souhaitais qu’il ne fut <app>
                   <rdg wit="#A"> qu’un simple bourgeois pour</rdg>
                </app> qu’on ne pût m’envier mon sort.</p>
             <p xml:id="P.44">
@@ -1305,12 +1359,12 @@
                   Schwerin</persName> qui me faisait les premières propositions de mariage dans les
                termes du monde les plus soumis et les plus obligeants. J’étais encore occupée de les
                lire lorsque <persName ref="#P5 #P6 #P7">mes bons parents </persName> arrivèrent tous
-               trois <anchor corresp="#facs_61"/>hors d’eux-mêmes et la larme à
-               l’œil m’annoncer l’arrivée du <persName ref="#P162">comte de Schwerin</persName>. Je
-               les voyais dans une erreur qui leur causait tous leurs chagrins et j’aurais pu les en
-               tirer d’abord. Mais pour ne pas trahir ma correspondance, je fus assez mauvaise que
-               de les laisser dans leurs suppositions. Ils firent ce qu’ils purent pour m’ébranler.
-               L’un me proposait l’héritage, l’autre des riches partis. <persName ref="#P5">Ma chère
+               trois <anchor corresp="#facs_61"/>hors d’eux-mêmes et la larme à l’œil m’annoncer
+               l’arrivée du <persName ref="#P162">comte de Schwerin</persName>. Je les voyais dans
+               une erreur qui leur causait tous leurs chagrins et j’aurais pu les en tirer d’abord.
+               Mais pour ne pas trahir ma correspondance, je fus assez mauvaise que de les laisser
+               dans leurs suppositions. Ils firent ce qu’ils purent pour m’ébranler. L’un me
+               proposait l’héritage, l’autre des riches partis. <persName ref="#P5">Ma chère
                   tante</persName> me combattait par ses larmes et par ses caresses. J’étais comme
                de bronze, moi qui d’ailleurs avait le cœur si tendre <app>
                   <rdg wit="#W"> et qui était si sensible</rdg>
@@ -1324,10 +1378,9 @@
                </app> . Ils avaient raison. <persName ref="#P5">Ma tante</persName> me disait tous
                les jours que je détournais la bénédiction du Ciel par ma conduite, que j’étais
                métamorphosée depuis cette fatalité, que j’avais été douce, naturelle et sincère, et
-               que je devenais <anchor corresp="#facs_62"/>opiniâtre, fausse et
-               dissimulée. Je sentais qu’elle avait raison et j’en gémissais ; mais je ne pouvais
-               vaincre mon penchant et dès ce que je pensais à m’en défaire, tout mon sang se
-               glacait.</p>
+               que je devenais <anchor corresp="#facs_62"/>opiniâtre, fausse et dissimulée. Je
+               sentais qu’elle avait raison et j’en gémissais ; mais je ne pouvais vaincre mon
+               penchant et dès ce que je pensais à m’en défaire, tout mon sang se glacait.</p>
             <p xml:id="P.45">Enfin le <persName ref="#P173">
                   <app>
                      <rdg wit="#W"> jeune</rdg>
@@ -1344,30 +1397,27 @@
                contentement dura très peu, puisque <persName ref="#P81">mon père</persName> m’envoya
                son équipage pour me chercher. On prit encore congé avec bien des larmes, et
                   <persName ref="#P5">ma bonne tante</persName> me prophétisait <anchor
-                  corresp="#facs_63"/>toujours mille maux ; mais elle
-               m’accoutumait si fort à <app>
+                  corresp="#facs_63"/>toujours mille maux ; mais elle m’accoutumait si fort à <app>
                   <rdg wit="#A"> toutes</rdg>
                </app> ces répétitions que je ne les estimais plus.</p>
-            <p xml:id="P.46">Je passai chez <persName ref="#P80">mon oncle</persName> en
-               allant chez <persName ref="#P81">mon père</persName>. Il me reçut avec des
-               distinctions qui me firent juger que l’arrivée du <persName ref="#P162">comte de
-                  Schwerin</persName> n’était pas éloignée. Je n’y restai que peu de jours et
-               arrivant chez <persName ref="#P81">mon père</persName>, son premier compliment fut
-               que j’avais agi en enfant et qu’il s’en fallait de peu que le libraire ne produisasse
-               mes lettres du <persName ref="#P162">comte de Schwerin</persName>. Je ne savais au
-               monde d’où cela me venait ; mais <persName ref="#P81">mon père</persName>, selon sa
-               maxime, me laissa dans l’inquiétude sans m’en dire davantage. Je passai une très
-               mauvaise nuit. Je ne savais si on m’avait trahi là où je demeurais, ou si le
-                  <persName ref="#P162">comte de Schwerin</persName> m’avait sacrifiée. Rien ne m’a
-               été plus contraire dès mon enfance que l’incertitude. Je n’estimais douleurs que
-               l’attente, et c’est la conduite, ô mon Dieu, que vous avez tenue pour moi. Toute ma
-               vie n’a été qu’un enchaînement d’incertitudes et d’attentes, soyez-en loué et béni,
-               puisque vous m’avez appris à n’attendre plus rien que de vous et à me faire mériter
-               tout le reste.</p>
+            <p xml:id="P.46">Je passai chez <persName ref="#P80">mon oncle</persName> en allant chez
+                  <persName ref="#P81">mon père</persName>. Il me reçut avec des distinctions qui me
+               firent juger que l’arrivée du <persName ref="#P162">comte de Schwerin</persName>
+               n’était pas éloignée. Je n’y restai que peu de jours et arrivant chez <persName
+                  ref="#P81">mon père</persName>, son premier compliment fut que j’avais agi en
+               enfant et qu’il s’en fallait de peu que le libraire ne produisasse mes lettres du
+                  <persName ref="#P162">comte de Schwerin</persName>. Je ne savais au monde d’où
+               cela me venait ; mais <persName ref="#P81">mon père</persName>, selon sa maxime, me
+               laissa dans l’inquiétude sans m’en dire davantage. Je passai une très mauvaise nuit.
+               Je ne savais si on m’avait trahi là où je demeurais, ou si le <persName ref="#P162"
+                  >comte de Schwerin</persName> m’avait sacrifiée. Rien ne m’a été plus contraire
+               dès mon enfance que l’incertitude. Je n’estimais douleurs que l’attente, et c’est la
+               conduite, ô mon Dieu, que vous avez tenue pour moi. Toute ma vie n’a été qu’un
+               enchaînement d’incertitudes et d’attentes, soyez-en loué et béni, puisque vous m’avez
+               appris à n’attendre plus rien que de vous et à me faire mériter tout le reste.</p>
             <p xml:id="P.47">
                <persName ref="#P82">Ma belle-mère</persName> me dit le lendemain toute l’histoire de
-               ma cassette et comme par une double clef <anchor
-                  corresp="#facs_64"/>
+               ma cassette et comme par une double clef <anchor corresp="#facs_64"/>
                <persName ref="#P5">ma tante</persName> avait lu mes lettres aussitôt que je les
                avais renfermées, et que cela l’avait si fort aigrie de voir comme elle était ma dupe
                après tous les biens qu’elle m’avait fait, qu’à présent elle me déshéritait et ne
@@ -1395,9 +1445,9 @@
                <app>
                   <rdg wit="#W"> d’où</rdg>
                   <rdg wit="#A"> et</rdg>
-               </app> il ne m’écrivait <anchor corresp="#facs_65"/>que de fêtes
-               et de festins et ne parlait point de son retour. On écrivit à <persName ref="#P169"
-                  >son père</persName> qu’il s’était promis à <app>
+               </app> il ne m’écrivait <anchor corresp="#facs_65"/>que de fêtes et de festins et ne
+               parlait point de son retour. On écrivit à <persName ref="#P169">son père</persName>
+               qu’il s’était promis à <app>
                   <rdg wit="#A"><persName ref="#P73">une princesse de la H.</persName></rdg>
                   <rdg wit="#W"><persName ref="#P73">une princesse de H.</persName></rdg>
                </app> Il en écrivit à <persName ref="#P82">ma belle-mère</persName> de la manière du
@@ -1416,8 +1466,7 @@
                m’étaient inconnus, et j’en sentais tant d’horreur que je ne savais que répondre.
                   <persName ref="#P82">Ma belle-mère</persName> se reprit et m’ordonna de lui
                écrire, et de lui représenter l’affront des deux familles, et mon honneur, et le
-                  <anchor corresp="#facs_66"/>Christianisme. Je le fis dans des
-               termes très vifs et <app>
+                  <anchor corresp="#facs_66"/>Christianisme. Je le fis dans des termes très vifs et <app>
                   <rdg wit="#A"> très</rdg>
                </app> touchants, mais ma lettre ne rencontra plus le <persName ref="#P162">comte de
                   Schwerin</persName> en <placeName ref="#O22">Prusse</placeName>, il en était parti
@@ -1436,32 +1485,31 @@
                songea d’abord à me renvoyer à <persName ref="#P5">ma tante</persName> pour que du
                moins le <persName ref="#P162">comte de Schwerin</persName> lui en fit la proposition
                lui-même.</p>
-            <p xml:id="P.49">Je partis donc après la Pentecôte pour aller chez <persName
-                  ref="#P80">mon oncle</persName>, qui me mena avec <persName ref="#P28">madame sa
+            <p xml:id="P.49">Je partis donc après la Pentecôte pour aller chez <persName ref="#P80"
+                  >mon oncle</persName>, qui me mena avec <persName ref="#P28">madame sa
                   femme</persName> et <persName ref="#P422">ma cousine</persName> dans la même
                   <placeName ref="#O109">ville</placeName> où <persName ref="#P5">ma
-                  tante</persName> venait souvent. Elle y vint d’abord, et on me remit entre
-                  <anchor corresp="#facs_67"/>ses mains sans lui rien dire de
-               ce qui se passait. J’ignorais même que l’arrivée du <persName ref="#P162">comte de
-                  Schwerin</persName> fut si proche, puisque par tous ses voyages ses lettres
-               m’avaient manquées. Un jour que j’étais plus inquiète qu’à l’ordinaire sur son
-               silence, je vis entrer un homme dans la maison que je croyais connaître. Je me
-               retirai d’abord pour savoir qui c’était, lorsque <persName ref="#P420">ma
-                  fille</persName> vint me dire qu’il y avait un étranger qui demandait à me parler.
-               Je fus le trouver, et je fus fort surprise de voir que c’était <persName ref="#P427"
-                  >un ancien domestique</persName> du <persName ref="#P162">comte de
-                  Schwerin</persName>, qui me présenta une lettre de sa part. Je lui demandai avec
-               précipitation s’il était encore dans <placeName ref="#O22">ce terrible
-                  pays</placeName> où il avait été. Il me dit qu’il était arrivé avec lui et
-               demandait à me voir. Telle étourdie que j’étais dans ce temps-là, j’eus assez de
+                  tante</persName> venait souvent. Elle y vint d’abord, et on me remit entre <anchor
+                  corresp="#facs_67"/>ses mains sans lui rien dire de ce qui se passait. J’ignorais
+               même que l’arrivée du <persName ref="#P162">comte de Schwerin</persName> fut si
+               proche, puisque par tous ses voyages ses lettres m’avaient manquées. Un jour que
+               j’étais plus inquiète qu’à l’ordinaire sur son silence, je vis entrer un homme dans
+               la maison que je croyais connaître. Je me retirai d’abord pour savoir qui c’était,
+               lorsque <persName ref="#P420">ma fille</persName> vint me dire qu’il y avait un
+               étranger qui demandait à me parler. Je fus le trouver, et je fus fort surprise de
+               voir que c’était <persName ref="#P427">un ancien domestique</persName> du <persName
+                  ref="#P162">comte de Schwerin</persName>, qui me présenta une lettre de sa part.
+               Je lui demandai avec précipitation s’il était encore dans <placeName ref="#O22">ce
+                  terrible pays</placeName> où il avait été. Il me dit qu’il était arrivé avec lui
+               et demandait à me voir. Telle étourdie que j’étais dans ce temps-là, j’eus assez de
                raison pour le faire prier d’aller chez <persName ref="#P80">mon oncle</persName>
                avant que de me demander, et j’eus la précaution de défendre à <persName ref="#P427"
                   >cet homme</persName> de ne dire à personne qu’il m’avait parlé. Il l’exécuta
                fidèlement. Le <persName ref="#P162">comte de Schwerin</persName> se fit annoncer
                chez <persName ref="#P80">mon oncle</persName> et y alla d’abord faire sa
                proposition. Dès que <persName ref="#P422">ma cousine</persName> le vit, elle me fit
-                  <anchor corresp="#facs_68"/>avertir, et j’eus la malice de
-               leur laisser croire à tous que je ne savais ce qu’ils me disaient.</p>
+                  <anchor corresp="#facs_68"/>avertir, et j’eus la malice de leur laisser croire à
+               tous que je ne savais ce qu’ils me disaient.</p>
             <p xml:id="P.50">
                <persName ref="#P80">Mon oncle</persName> reçut le <persName ref="#P162">comte de
                   Schwerin</persName> fort froidement et dit que tout dépendait de <persName
@@ -1478,27 +1526,24 @@
                malheureuse. Il vous haïra, cet homme que vous adorez, et vous payerez cher
                l’ingratitude que vous me faites. » J’étais au désespoir de la voir selon mon faible
                jugement si peu raisonnable ; mais elle l’était plus que moi, puisque ses paroles
-                  <anchor corresp="#facs_69"/>ont été une prophétie très
-               véritable, et elles me firent au moment même tant d’impression que je n’ai pu les
-               oublier de ma vie.</p>
-            <p xml:id="P.51">Enfin <persName ref="#P6">le beau-frère</persName> de
-                  <persName ref="#P5">ma tante</persName>, un homme de mérite et d’une politesse
-               achevée, la fit souvenir que ce n’était pas là le temps de faire ces déclarations, et
-               qu’elle devait recevoir la visite. Elle le fit. Dès que le <persName ref="#P162"
-                  >comte de Schwerin</persName> entra, tous les yeux se jetèrent sur moi comme sur
-               une victime condamnée. Cela me décontenança si fort et me fit rougir si
-               extraordinairement que je ne savais où me mettre. <persName ref="#P425">L’hôte du
-                  logis</persName>, qui était fort obligeant et qui voulait se compter du parentage
-               du <persName ref="#P162">comte de Schwerin</persName>, vint me retirer d’embarras et
-               me rassura, en me faisant voir que c’était le premier feu, que cela se radoucirait.
-               Cela me remit, et après les premiers compliments de <persName ref="#P5">ma
-                  tante</persName> avec le <persName ref="#P162">comte de Schwerin</persName>, il
-               s’approcha de nous et me demanda et à <persName ref="#P425">ce seigneur</persName> si
-               nous étions du nombre <app>
+                  <anchor corresp="#facs_69"/>ont été une prophétie très véritable, et elles me
+               firent au moment même tant d’impression que je n’ai pu les oublier de ma vie.</p>
+            <p xml:id="P.51">Enfin <persName ref="#P6">le beau-frère</persName> de <persName
+                  ref="#P5">ma tante</persName>, un homme de mérite et d’une politesse achevée, la
+               fit souvenir que ce n’était pas là le temps de faire ces déclarations, et qu’elle
+               devait recevoir la visite. Elle le fit. Dès que le <persName ref="#P162">comte de
+                  Schwerin</persName> entra, tous les yeux se jetèrent sur moi comme sur une victime
+               condamnée. Cela me décontenança si fort et me fit rougir si extraordinairement que je
+               ne savais où me mettre. <persName ref="#P425">L’hôte du logis</persName>, qui était
+               fort obligeant et qui voulait se compter du parentage du <persName ref="#P162">comte
+                  de Schwerin</persName>, vint me retirer d’embarras et me rassura, en me faisant
+               voir que c’était le premier feu, que cela se radoucirait. Cela me remit, et après les
+               premiers compliments de <persName ref="#P5">ma tante</persName> avec le <persName
+                  ref="#P162">comte de Schwerin</persName>, il s’approcha de nous et me demanda et à
+                  <persName ref="#P425">ce seigneur</persName> si nous étions du nombre <app>
                   <rdg wit="#W">de ceux</rdg>
                </app> que sa vue épouvantait, puisqu’il s’était aperçu de l’alarme générale.</p>
-            <p xml:id="P.52" corresp="/o:mgs.timeline'T13">On fit entrer toute la compagnie
-               dans une <app>
+            <p xml:id="P.52" corresp="/o:mgs.timeline'T13">On fit entrer toute la compagnie dans une <app>
                   <rdg wit="#W">grande</rdg>
                </app> salle joignant le jardin, et il fut assez extraordinaire que dès que le
                   <persName ref="#P162">comte de Schwerin</persName> y entra, <anchor
@@ -1525,8 +1570,8 @@
                qu’ils lui témoignent la moindre honnêteté due à un homme de sa famille. Je le
                craignais inconstant, et à peine osais-je lui parler tant on m’observait. Joint à
                cela que la fatigue du terrible voyage qu’il venait de faire lui donna la fièvre.</p>
-            <p xml:id="P.53">Enfin <persName ref="#P422">ma cousine</persName> épia si bien
-               le temps, qu’après qu’il eut dit adieu, elle lui dit de rester <app>
+            <p xml:id="P.53">Enfin <persName ref="#P422">ma cousine</persName> épia si bien le
+               temps, qu’après qu’il eut dit adieu, elle lui dit de rester <app>
                   <rdg wit="#A">dans une rue écartée où les fenêtres</rdg>
                </app> d’une chambre qui aboutissait au jardin donnaient. Elle m’y mena sans que je
                susse rien du complot. Dès que j’y fus, je vis le <persName ref="#P162">comte de
@@ -1687,9 +1732,9 @@
                égale dans les plus grandes variations. C’est votre Grâce <app>
                   <rdg wit="#W">seule</rdg>
                </app>, ô mon Dieu, et c’est à vous que je dois tout.</p>
-            <p xml:id="P.58">Enfin, le lendemain de ce trouble on vint m’appeler comme un
-               tourbillon que je devais venir avec la dernière vitesse. J’étais fort aisément
-               démontée, une parole plus haute <app>
+            <p xml:id="P.58">Enfin, le lendemain de ce trouble on vint m’appeler comme un tourbillon
+               que je devais venir avec la dernière vitesse. J’étais fort aisément démontée, une
+               parole plus haute <app>
                   <rdg wit="#A">l’une</rdg>
                </app> que l’autre m’effrayait. Je crus qu’il y avait quelqu’un qui se trouvait très
                mal et arrivai dans la salle d’un air consterné et effrayé. <app>
@@ -1710,9 +1755,9 @@
                   <rdg wit="#A">tout</rdg>
                </app> ce qu’on me disait et qu’il m’avait accordée. Je ne pouvais encore digérer des
                manières si brusques, ainsi je passai toute la journée en de grandes réflexions.</p>
-            <p xml:id="P.59">Le lendemain, <persName ref="#P82">ma belle-mère</persName> me
-               fit venir et me dit que le jour des noces était fixé au lundi prochain 1<hi
-                  rend="bold">er</hi>
+            <p xml:id="P.59">Le lendemain, <persName ref="#P82">ma belle-mère</persName> me fit
+               venir et me dit que le jour des noces était fixé au lundi prochain 1<hi rend="bold"
+                  >er</hi>
                <date type="month" when-iso="--12">décembre</date>. <anchor corresp="#facs_79"
                   xml:id="normalized_facs_79"/>C’était le vendredi alors, et le dimanche les
                annonces se feraient à <placeName ref="#O172">la terre</placeName> de <persName
@@ -1747,8 +1792,8 @@
                <hi rend="bold">
                   <anchor corresp="#facs_80" xml:id="normalized_facs_80"/>Seconde partie</hi>
             </p>
-            <p xml:id="P.62" corresp="/o:mgs.timeline#T14">Votre volonté soit faite, ô mon
-               Dieu. Puisque vous le voulez, je remets la main à la plume, dans l’espérance que mon
+            <p xml:id="P.62" corresp="/o:mgs.timeline#T14">Votre volonté soit faite, ô mon Dieu.
+               Puisque vous le voulez, je remets la main à la plume, dans l’espérance que mon
                obéissance vous sera agréable et pourra effacer plusieurs fautes dont le reste de ma
                vie est remplie. Le <date type="full-date" when-iso="1704-12-02">2 décembre
                   1704</date>, <persName ref="#P169">mon beau-père</persName> fut le premier qui me
@@ -1792,10 +1837,10 @@
                </app> de circonspection. Il nous avoua que <placeName ref="#O108">sa
                   terre</placeName> ne portait que très peu de revenu, et que <persName ref="#P169"
                   >monsieur son père</persName> la lui avait donnée pour la mettre en état.</p>
-            <p xml:id="P.63">Je fus si surprise d’entendre tomber tout d’un coup tous ces
-               biens immenses qu’on m’avait dépeints et l’idée que je m’étais faite d’avoir une
-               maison à moi et d’y être à mon aise sans être sous la tutelle de personne, que je me
-               retirai pour n’être pas témoin <app>
+            <p xml:id="P.63">Je fus si surprise d’entendre tomber tout d’un coup tous ces biens
+               immenses qu’on m’avait dépeints et l’idée que je m’étais faite d’avoir une maison à
+               moi et d’y être à mon aise sans être sous la tutelle de personne, que je me retirai
+               pour n’être pas témoin <app>
                   <rdg wit="#W">de la suite</rdg>
                </app> d’une conversation si fâcheuse. Il me semblait qu’on m’ôtait les écailles
                   <anchor corresp="#facs_82" xml:id="normalized_facs_82"/>des yeux. Je me vis
@@ -1824,8 +1869,8 @@
                aucune part, puisqu’il n’avait alors aucune charge, par conséquent j’étais la
                dernière à la Cour. Car à <placeName ref="#O6">Berlin</placeName>, c’est la règle, et
                fut-on princesse du sang royal, il faut céder à une femme de premier Ministre.</p>
-            <p xml:id="P.64">Enfin <persName ref="#P169">mon beau-père</persName> pressait
-               son retour, et nous devions partir le <date type="day-month" when-iso="--12-03">3
+            <p xml:id="P.64">Enfin <persName ref="#P169">mon beau-père</persName> pressait son
+               retour, et nous devions partir le <date type="day-month" when-iso="--12-03">3
                   décembre</date> pour <placeName ref="#O103">Wesel</placeName> chez <persName
                   ref="#P81">mon père</persName>. L’on se prépara pour cette petite traite. Je
                croyais qu’étant nouvellement mariée, je devais paraître plus propre et mieux mise,
@@ -1848,9 +1893,9 @@
                gâteront cet habit qui vous sied si bien. » Et en achevant, il éclata de rire (comme
                il faisait ordinairement quand il se fâchait). J’étais si étourdie d’un compliment si
                peu attendu que les larmes me vinrent aux yeux et je me retirai.</p>
-            <p xml:id="P.65">Le <persName ref="#P162">comte de Schwerin</persName> entra
-               justement et me voyant dans ce désordre, il fut fort déconcerté. Il demanda la raison
-               à <persName ref="#P82">ma belle-mère</persName>, qui lui en dit le sujet. Il ne put
+            <p xml:id="P.65">Le <persName ref="#P162">comte de Schwerin</persName> entra justement
+               et me voyant dans ce désordre, il fut fort déconcerté. Il demanda la raison à
+                  <persName ref="#P82">ma belle-mère</persName>, qui lui en dit le sujet. Il ne put
                se vaincre et dit assez haut : « N’ayant que cet habit de mettable, je crois qu’on
                pourrait lui laisser porter dans la situation où elle est. » On se rapaisa, et il
                vint me trouver. Je voulais me déshabiller, mais il m’en empêcha et <app>
@@ -1864,20 +1909,20 @@
                nouveaux chagrins. Se pouvait-il autrement, ô mon Dieu, je commençais à vous oublier
                et je ne pensais qu’à mon idole, à qui je sacrifiais toutes mes pensées, mon cœur et
                tous les moments de ma vie.</p>
-            <p xml:id="P.66">Nous arrivâmes le soir à <placeName ref="#O103"
-                  >Wesel</placeName>, où <persName ref="#P428">les domestiques</persName> de
-                  <persName ref="#P81">mon père</persName> avaient orné toute la maison de fleurs et
-               de guirlandes. J’étais charmée qu’on nous fît du moins quelque honneur. Cela en resta
-               à eux, car personne d’autre s’en mêla. J’y trouvai <persName ref="#P79">mon frère
-                  aîné</persName> fort sensible qu’on ne l’eût pas fait venir à cette fête, et cela
-               me mortifia extrêmement ; mais son bon cœur fit qu’il l’oublia et devint ami du
-                  <persName ref="#P162">comte de Schwerin<app>
+            <p xml:id="P.66">Nous arrivâmes le soir à <placeName ref="#O103">Wesel</placeName>, où
+                  <persName ref="#P428">les domestiques</persName> de <persName ref="#P81">mon
+                  père</persName> avaient orné toute la maison de fleurs et de guirlandes. J’étais
+               charmée qu’on nous fît du moins quelque honneur. Cela en resta à eux, car personne
+               d’autre s’en mêla. J’y trouvai <persName ref="#P79">mon frère aîné</persName> fort
+               sensible qu’on ne l’eût pas fait venir à cette fête, et cela me mortifia
+               extrêmement ; mais son bon cœur fit qu’il l’oublia et devint ami du <persName
+                  ref="#P162">comte de Schwerin<app>
                      <rdg wit="#A">, mon époux</rdg>
                   </app></persName>.</p>
-            <p xml:id="P.67">Le lendemain, <persName ref="#P81">mon père</persName> me fit
-               venir dans sa bibliothèque, et après m’avoir donné de très belles leçons comme je
-               devais toujours avoir Dieu devant les yeux et songer sérieusement au salut de mon
-               âme, il me remit deux mille écus en or pour mes habits et mes ajustements. <app>
+            <p xml:id="P.67">Le lendemain, <persName ref="#P81">mon père</persName> me fit venir
+               dans sa bibliothèque, et après m’avoir donné de très belles leçons comme je devais
+               toujours avoir Dieu devant les yeux et songer sérieusement au salut de mon âme, il me
+               remit deux mille écus en or pour mes habits et mes ajustements. <app>
                   <rdg wit="#A">Dès ce que je l’eus quitté, je m’en fus trouver le <persName
                         ref="#P162">comte de Schwerin</persName>. « Tenez, lui dis-je, voilà pour
                      mes ajustements.</rdg>
@@ -1912,15 +1957,14 @@
                et dont il voulait qu’on imitât les manières de vivre. Je m’appliquais avec des
                efforts extraordinaires à tout ce qu’il m’en disait, mais il y avait des passages qui
                me faisaient frémir.</p>
-            <p xml:id="P.69">Dans ces circonstances, <persName ref="#P82">ma
-                  belle-mère</persName> s’aperçut que le <persName ref="#P162">comte de
-                  Schwerin</persName> commençait à s’ennuyer et à songer à son retour pour
-                  <placeName ref="#O6">Berlin</placeName>. Elle proposa que nous devions aller voir
-                  <persName ref="#P5">ma tante</persName> à tâcher de la gagner. Le <persName
-                  ref="#P162">comte de Schwerin</persName> y consentit. On en demanda la permission,
-               elle l’accorda, quoi qu’avec des expressions fort froides. Nous partîmes à la moitié
-               de <date type="month-year" when-iso="1705-01">janvier 1705</date>. <persName
-                  ref="#P82">Ma belle-mère</persName> me porta une très belle <app>
+            <p xml:id="P.69">Dans ces circonstances, <persName ref="#P82">ma belle-mère</persName>
+               s’aperçut que le <persName ref="#P162">comte de Schwerin</persName> commençait à
+               s’ennuyer et à songer à son retour pour <placeName ref="#O6">Berlin</placeName>. Elle
+               proposa que nous devions aller voir <persName ref="#P5">ma tante</persName> à tâcher
+               de la gagner. Le <persName ref="#P162">comte de Schwerin</persName> y consentit. On
+               en demanda la permission, elle l’accorda, quoi qu’avec des expressions fort froides.
+               Nous partîmes à la moitié de <date type="month-year" when-iso="1705-01">janvier
+                  1705</date>. <persName ref="#P82">Ma belle-mère</persName> me porta une très belle <app>
                   <rdg wit="#A">pelisse</rdg>
                   <rdg wit="#W">[calinle?]</rdg>
                </app> pour mon voyage. Dès que nous arrivâmes à moitié chemin pour y passer la nuit,
@@ -1974,9 +2018,9 @@
                </app> besoin peut-être un jour, et elle me fit promettre fort sérieusement que si
                jamais je sortais de la famille où j’étais entrée, que je ne les y laisserai
                jamais.</p>
-            <p xml:id="P.71" corresp="/o:mgs.timeline#T15">J’étais indignée qu’elle me tînt
-               un pareil discours, et elle le remarqua. « Ne vous étonnez pas, me dit-elle, de ce
-               que je vous dis. Vous aimez <persName ref="#P162">votre mari</persName> à présent
+            <p xml:id="P.71" corresp="/o:mgs.timeline#T15">J’étais indignée qu’elle me tînt un
+               pareil discours, et elle le remarqua. « Ne vous étonnez pas, me dit-elle, de ce que
+               je vous dis. Vous aimez <persName ref="#P162">votre mari</persName> à présent
                aveuglément, j’en suis charmée. J’espère qu’il fait de même, mais tout change dans le
                monde. Peut-être un temps viendra qu’on vous mettra dehors <app>
                   <rdg wit="#A">(prédiction qui a été vraie)</rdg>
@@ -1994,8 +2038,8 @@
                autant que l’âge et la situation de <persName ref="#P5 #P6 #P7">ces illustres
                   personnes </persName> le permettaient. Nous demeurâmes huit jours dans ce charmant
                séjour.</p>
-            <p xml:id="P.72">En partant, <persName ref="#P5">ma chère tante</persName> me
-               donna plusieurs beaux et <app>
+            <p xml:id="P.72">En partant, <persName ref="#P5">ma chère tante</persName> me donna
+               plusieurs beaux et <app>
                   <rdg wit="#A">bons</rdg>
                   <rdg wit="#W">salutaires</rdg>
                </app> avis pour ma conduite, et surtout elle m’inspira la crainte de Dieu, et entre
@@ -2050,12 +2094,12 @@
                sans <app>
                   <rdg wit="#A">être</rdg>
                </app> péché, il devenait criminel en oubliant mon créateur et mon Dieu.</p>
-            <p xml:id="P.74">Le <persName ref="#P162">comte de Schwerin</persName>
-               commençait à s’ennuyer mortellement chez <persName ref="#P81">mon père</persName>.
-                  <persName ref="#P82">Ma belle-mère</persName> le remarqua encore et proposa que
-               nous devions aller passer quelque temps chez <persName ref="#P157">sa
-               sœur</persName>, à douze lieues de <placeName ref="#O103">Wesel</placeName>. Cela fut
-               d’abord résolu. Le séjour <app>
+            <p xml:id="P.74">Le <persName ref="#P162">comte de Schwerin</persName> commençait à
+               s’ennuyer mortellement chez <persName ref="#P81">mon père</persName>. <persName
+                  ref="#P82">Ma belle-mère</persName> le remarqua encore et proposa que nous devions
+               aller passer quelque temps chez <persName ref="#P157">sa sœur</persName>, à douze
+               lieues de <placeName ref="#O103">Wesel</placeName>. Cela fut d’abord résolu. Le
+               séjour <app>
                   <rdg wit="#A">y</rdg>
                </app> était encore plus désagréable au cœur de l’hiver à une campagne <anchor
                   corresp="#facs_94" xml:id="normalized_facs_94"/>qui d’elle-même n’avait aucun
@@ -2087,21 +2131,21 @@
                brouilla le <persName ref="#P162">comte de Schwerin</persName> avec <persName
                   ref="#P81">mon père</persName> fort cruellement, comme je le dirai en son
                lieu.</p>
-            <p xml:id="P.75">Le soir on remarqua mon désordre, que j’excusai sur une
-               migraine que j’avais effectivement. Je me trouvai même si mal en me couchant que je
-               m’évanouis. Le <persName ref="#P162">comte de Schwerin</persName> en fut fort
-               inquiet, et il me dit avec sa douceur ordinaire : « Vous êtes bien sensible à ce que
-               je vois ; je croyais que rien ne vous touchait. » Il fut plus précautionné depuis ce
-               temps-là, et ne se servit de longtemps d’expressions pareilles. L’ordre de <persName
-                  ref="#P169">mon beau-père</persName> vint bientôt, et nous retournâmes à
-                  <placeName ref="#O103">Wesel</placeName> pour nous préparer au voyage de
-                  <placeName ref="#O6">Berlin</placeName>. <persName ref="#P81">Mon père</persName>
-               était véritablement affligé de nous voir partir si tôt, et il eut souhaité de nous
-               garder du moins jusqu’à ce que ma grossesse eût été plus avancée ; mais il n’y avait
-               plus de délai à espérer.</p>
-            <p xml:id="P.76" corresp="/o:mgs.timeline#T16">Nous partîmes donc au
-               commencement de <date type="month-year" when-iso="1705-02">février 1705</date> pour
-                  <placeName ref="#O6">Berlin</placeName>, en passant par <placeName ref="#O24"
+            <p xml:id="P.75">Le soir on remarqua mon désordre, que j’excusai sur une migraine que
+               j’avais effectivement. Je me trouvai même si mal en me couchant que je m’évanouis. Le
+                  <persName ref="#P162">comte de Schwerin</persName> en fut fort inquiet, et il me
+               dit avec sa douceur ordinaire : « Vous êtes bien sensible à ce que je vois ; je
+               croyais que rien ne vous touchait. » Il fut plus précautionné depuis ce temps-là, et
+               ne se servit de longtemps d’expressions pareilles. L’ordre de <persName ref="#P169"
+                  >mon beau-père</persName> vint bientôt, et nous retournâmes à <placeName
+                  ref="#O103">Wesel</placeName> pour nous préparer au voyage de <placeName ref="#O6"
+                  >Berlin</placeName>. <persName ref="#P81">Mon père</persName> était véritablement
+               affligé de nous voir partir si tôt, et il eut souhaité de nous garder du moins
+               jusqu’à ce que ma grossesse eût été plus avancée ; mais il n’y avait plus de délai à
+               espérer.</p>
+            <p xml:id="P.76" corresp="/o:mgs.timeline#T16">Nous partîmes donc au commencement de
+                  <date type="month-year" when-iso="1705-02">février 1705</date> pour <placeName
+                  ref="#O6">Berlin</placeName>, en passant par <placeName ref="#O24"
                   >Hanovre</placeName>. Le corps de <persName ref="#P66">feue S.M.</persName>, notre
                incomparable <persName ref="#P66">reine</persName>, toute sa Cour y était <app>
                   <rdg wit="#A">encore</rdg>
@@ -2145,9 +2189,9 @@
                essentiels. J’eusse certainement eu la docilité de les suivre, si dans ce temps-là,
                mon Dieu, j’eusse été dans votre Eglise. Un directeur éclairé m’eut donné des avis
                plus salutaires.</p>
-            <p xml:id="P.78">Mais j’en reviens à mon sujet. Le <persName ref="#P162">comte
-                  de Schwerin</persName> trouvait trop de naïveté dans ma conduite pour pouvoir
-               garder ce divertissement seul pour <app>
+            <p xml:id="P.78">Mais j’en reviens à mon sujet. Le <persName ref="#P162">comte de
+                  Schwerin</persName> trouvait trop de naïveté dans ma conduite pour pouvoir garder
+               ce divertissement seul pour <app>
                   <rdg wit="#A">lui. Il en fit part à <persName ref="#P205">une de ses
                         parentes</persName> qui était à la Cour, et que pour</rdg>
                </app> plusieurs intérêts propres, m’enviait <anchor corresp="#facs_98"
@@ -2189,9 +2233,9 @@
                   >l’Electrice</persName>, <app>
                   <rdg wit="#W">à présent Reine d'Angleterre </rdg>
                </app>, mais qu’il me ferait dire l’heure.</p>
-            <p xml:id="P.79">J’étais dans une angoisse inconcevable d’être obligée à me
-               contraindre si terriblement que de m’habiller dans l’habit d’un autre, qui ne me
-               siérait pas. La fatigue du voyage, l’incommodité de <app>
+            <p xml:id="P.79">J’étais dans une angoisse inconcevable d’être obligée à me contraindre
+               si terriblement que de m’habiller dans l’habit d’un autre, qui ne me siérait pas. La
+               fatigue du voyage, l’incommodité de <app>
                   <rdg wit="#A">mon état</rdg>
                   <rdg wit="#W">l'état</rdg>
                </app> me tourmentaient tour à tour. Je m’apercevais <app>
@@ -2205,14 +2249,13 @@
                </app> plus que le soin de vous plaire. Mais soyez loué et béni de ce que vous m’avez
                si tôt fait perdre un goût si chimérique, puisque je ne me souviens point de m’en
                être trop souciée depuis.</p>
-            <p xml:id="P.80">J’arrivai <anchor corresp="#facs_100"
-                  xml:id="normalized_facs_100"/>enfin à la Cour vers le soir, où on m’attendait avec
-               autant d’impatience que j’avais de peine à y aller, puisque j’avais si fort à
-               l’esprit qu’on m’y jouerait. On me mena d’abord dans les appartements de deuil, où
-                  <persName ref="#P622">les dames de notre Cour</persName> avaient la garde. Dès que
-               j’entrai, le <persName ref="#P162">comte de Schwerin</persName> m’aborda et me dit :
-               « Je m’en vais chez <persName ref="#P587">un de mes amis</persName> qui s’est cassé
-               la jambe<app>
+            <p xml:id="P.80">J’arrivai <anchor corresp="#facs_100" xml:id="normalized_facs_100"
+               />enfin à la Cour vers le soir, où on m’attendait avec autant d’impatience que
+               j’avais de peine à y aller, puisque j’avais si fort à l’esprit qu’on m’y jouerait. On
+               me mena d’abord dans les appartements de deuil, où <persName ref="#P622">les dames de
+                  notre Cour</persName> avaient la garde. Dès que j’entrai, le <persName ref="#P162"
+                  >comte de Schwerin</persName> m’aborda et me dit : « Je m’en vais chez <persName
+                  ref="#P587">un de mes amis</persName> qui s’est cassé la jambe<app>
                   <rdg wit="#W">, qu'il me nomma</rdg>
                </app>. » Je n’étais pas contente qu’il me laissât seule parmi des inconnus, mais il
                ne me laissa pas le temps de répliquer. Tout le monde me fit accueil, et chacun me
@@ -2272,9 +2315,9 @@
                </app>, ô mon Dieu, qui agissait sur moi. Vous mêliez toujours des amertumes
                extraordinaires dans toutes les occasions où je devais humainement goûter des
                douceurs.</p>
-            <p xml:id="P.83">Je pris congé, et le lendemain nous partîmes pour <placeName
-                  ref="#O6">Berlin</placeName>. Nous arrivâmes le <date type="day-month"
-                  when-iso="--02-12">12 février</date> au Gouvernement de <persName ref="#P169">mon
+            <p xml:id="P.83">Je pris congé, et le lendemain nous partîmes pour <placeName ref="#O6"
+                  >Berlin</placeName>. Nous arrivâmes le <date type="day-month" when-iso="--02-12"
+                  >12 février</date> au Gouvernement de <persName ref="#P169">mon
                   beau-père</persName>, où l’équipage du <persName ref="#P162">comte de
                   Schwerin</persName> l’attendait déjà, et le lendemain 13 <app>
                   <rdg wit="#W">février</rdg>
@@ -2338,11 +2381,10 @@
                devais vous craindre uniquement et chercher à vous plaire, et à y appliquer mes
                études plus qu’à inventer tant de stratagèmes pour adoucir un homme que nous n’avions
                pas seulement offensé que dans son idée.</p>
-            <p xml:id="P.84">Enfin, trois jours après notre arrivée, cette époque qu’on
-               avait tant craint arriva. Dès <anchor corresp="#facs_106"
-                  xml:id="normalized_facs_106"/>qu’on eut avis de l’arrivée de <persName ref="#P169"
-                  >mon beau-père</persName>, on m’appela pour me présenter la première à sa vue, et
-               j’y courus. J’étais trop entêtée <app>
+            <p xml:id="P.84">Enfin, trois jours après notre arrivée, cette époque qu’on avait tant
+               craint arriva. Dès <anchor corresp="#facs_106" xml:id="normalized_facs_106"/>qu’on
+               eut avis de l’arrivée de <persName ref="#P169">mon beau-père</persName>, on m’appela
+               pour me présenter la première à sa vue, et j’y courus. J’étais trop entêtée <app>
                   <rdg wit="#A">de</rdg>
                </app> gagner sa bienveillance, ou plutôt pour me la conserver, puisque malgré ses
                petites promptitudes il avait mille bontés pour moi et m’aimait véritablement. Dès
@@ -2382,10 +2424,9 @@
                   <rdg wit="#W">ici</rdg>
                </app> à décider à ceux qui ont été mes plus grands adversaires, s’ils veulent le
                regarder de sang froid.</p>
-            <p xml:id="P.86">Les premiers jours, <persName ref="#P169">mon
-                  beau-père</persName> ne voulut me faire voir à personne. Dès ce que quelque
-                  <anchor corresp="#facs_108" xml:id="normalized_facs_108"/>visite venait, on me
-               congédiait. <app>
+            <p xml:id="P.86">Les premiers jours, <persName ref="#P169">mon beau-père</persName> ne
+               voulut me faire voir à personne. Dès ce que quelque <anchor corresp="#facs_108"
+                  xml:id="normalized_facs_108"/>visite venait, on me congédiait. <app>
                   <rdg wit="#W">Il n’y avait que chez ma belle-sœur, <persName ref="#P155">Madame de
                         C.</persName>, où j’osais aller, et encore devait-elle être seule.</rdg>
                </app> Je trouvais cette conduite <app>
@@ -2412,12 +2453,12 @@
                rudoyée. Le <persName ref="#P162">comte de Schwerin</persName> renoua toutes ses
                anciennes connaissances, et la plupart du temps je ne le voyais que le matin et le
                soir fort tard. Cela m’inquiétait extrêmement, et j’en répandis bien des larmes.</p>
-            <p xml:id="P.87">Un jour, un très honnête homme qui avait été <persName
-                  ref="#P380">gouverneur</persName> du <persName ref="#P162">comte de
-                  Schwerin</persName> me surprit pendant mes moments sensibles. Je dis « moments »
-               parce que dès que le <persName ref="#P162">comte de Schwerin</persName> reparaissait,
-               j’oubliais mes larmes et mes chagrins, et je n’avais pas la force de m’en plaindre.
-               Cet homme me demanda la cause de mon affliction. <app>
+            <p xml:id="P.87">Un jour, un très honnête homme qui avait été <persName ref="#P380"
+                  >gouverneur</persName> du <persName ref="#P162">comte de Schwerin</persName> me
+               surprit pendant mes moments sensibles. Je dis « moments » parce que dès que le
+                  <persName ref="#P162">comte de Schwerin</persName> reparaissait, j’oubliais mes
+               larmes et mes chagrins, et je n’avais pas la force de m’en plaindre. Cet homme me
+               demanda la cause de mon affliction. <app>
                   <rdg wit="#W">Je croyais qu’ayant été dans le caractère où il avait été avec
                         <persName ref="#P162">le comte de Schwerin</persName>, j'osais lui ouvrir
                      mon coeur. Je le lui dis avec ma naïvete naturelle, et avec des expressions qui
@@ -2538,8 +2579,8 @@
                   <rdg wit="#W">tous</rdg>
                </app> par mes saillies, que j’avoue avoir été souvent très rares, surtout pendant le
                temps de ma naïveté extraordinaire.</p>
-            <p xml:id="P.88">Le <persName ref="#P162">comte de Schwerin</persName>
-               s’accoutuma à rester au logis, et je <app>
+            <p xml:id="P.88">Le <persName ref="#P162">comte de Schwerin</persName> s’accoutuma à
+               rester au logis, et je <app>
                   <rdg wit="#W">me</rdg>
                </app> croyais <app>
                   <rdg wit="#A">être</rdg>
@@ -2634,23 +2675,22 @@
                </app> n’a-t-il pas fallu employer, ô mon Dieu, pour que vous ayez pu vaincre cette
                humeur prompte et cette passion tumultueuse. Votre grâce seule l’a domptée et vous
                avez étouffé tout ce feu déraisonnable.</p>
-            <p xml:id="P.90">Je tombai dans une mélancolie qui fit craindre pour moi, mais
-               cela me faisait un bien merveilleux, puisque je ne connaissais ce que c’était que
-               d’avoir attention sur moi-même tout le long de la journée, ni de s’examiner le soir
-               sur ses <anchor corresp="#facs_119" xml:id="normalized_facs_119"/>défauts. Mon
-               chagrin me l’apprit. Je remarquai tous les jours ce qui m’avait causé quelque peine,
-               et je tâchai de prendre un empire sur moi-même pour me corriger. Mon dessein était
-               vain dans mon intention, puisque je n’aspirais à acquérir cette indifférence que pour
+            <p xml:id="P.90">Je tombai dans une mélancolie qui fit craindre pour moi, mais cela me
+               faisait un bien merveilleux, puisque je ne connaissais ce que c’était que d’avoir
+               attention sur moi-même tout le long de la journée, ni de s’examiner le soir sur ses
+                  <anchor corresp="#facs_119" xml:id="normalized_facs_119"/>défauts. Mon chagrin me
+               l’apprit. Je remarquai tous les jours ce qui m’avait causé quelque peine, et je
+               tâchai de prendre un empire sur moi-même pour me corriger. Mon dessein était vain
+               dans mon intention, puisque je n’aspirais à acquérir cette indifférence que pour
                vivre plus tranquillement. Aussi vous savez, mon Dieu, qu’il fut infructueux, puisque
                pendant quinze ans que j’ai travaillé et fait des efforts inexprimables, je n’ai pu
                gagner que l’extérieur de la tranquillité, pendant que l’intérieur restait dans le
                trouble et l’agitation, joint à des amertumes continuelles et inouïes.</p>
-            <p xml:id="P.91">La maladie du <persName ref="#P162">comte de
-                  Schwerin</persName> allait toujours en augmentant, et on commença à craindre pour
-               lui. J’avais vu là où j’avais été élevée qu’en pareil cas on faisait venir des
-               ministres pour faire la prière, pour consoler le malade et lui peindre la beauté du
-               paradis, pour leur donner envie d’y aller sur la forte confiance qu’on se croit
-               prédestiné. <app>
+            <p xml:id="P.91">La maladie du <persName ref="#P162">comte de Schwerin</persName> allait
+               toujours en augmentant, et on commença à craindre pour lui. J’avais vu là où j’avais
+               été élevée qu’en pareil cas on faisait venir des ministres pour faire la prière, pour
+               consoler le malade et lui peindre la beauté du paradis, pour leur donner envie d’y
+               aller sur la forte confiance qu’on se croit prédestiné. <app>
                   <rdg wit="#W">Ici, on n’y songe pas. Au contraire, on ne faisait que raconter
                      mille nouvelles sur ce qui se passait <anchor corresp="#facs_120"
                         xml:id="normalized_facs_120"/>en ville, et on inventait tout ce qui pouvait
@@ -2730,10 +2770,10 @@
                tumultueux. Mais je ne les acceptais qu’en murmurant et en rejetant la cause sur les
                instruments dont vous vous serviez pour me guérir. C’est que j’agissais sans vous et
                sans votre grâce et que selon mes lumières humaines.</p>
-            <p xml:id="P.93">Dès ce que je pus m’échapper de la compagnie, je courus dans
-               la chambre du <persName ref="#P162">comte de Schwerin</persName>. J’y trouvai
-                  <persName ref="#P399 #P208">ses deux parentes </persName> qui fondaient en larmes.
-               Dès ce qu’elles me virent, elles voulurent me cacher qu’il était si mal <app>
+            <p xml:id="P.93">Dès ce que je pus m’échapper de la compagnie, je courus dans la chambre
+               du <persName ref="#P162">comte de Schwerin</persName>. J’y trouvai <persName
+                  ref="#P399 #P208">ses deux parentes </persName> qui fondaient en larmes. Dès ce
+               qu’elles me virent, elles voulurent me cacher qu’il était si mal <app>
                   <rdg wit="#A">et il s’efforça même pour me parler,</rdg>
                </app> et me dit : « <app>
                   <rdg wit="#W">Eh bien,</rdg>
@@ -2752,8 +2792,8 @@
                dangereux plaisir. Il n’y a même eu, Seigneur, que vos lumières qui m’ont marqué la
                vanité, et même le vice qu’il y a de tourner les actions de son prochain en ridicule.
                Le monde ne nous en instruit point, puisque c’est son goût et sa folie.</p>
-            <p xml:id="P.94">Vers la fin de <date type="month" when-iso="--03">mars</date>
-               le <persName ref="#P162">comte de Schwerin</persName> commença à se porter un peu mieux<app>
+            <p xml:id="P.94">Vers la fin de <date type="month" when-iso="--03">mars</date> le
+                  <persName ref="#P162">comte de Schwerin</persName> commença à se porter un peu mieux<app>
                   <rdg wit="#W">, mais il ne pouvait pas sortir du lit, tant la maladie l’avait
                      accablé</rdg>
                </app>. Il nous venait alors journellement du monde, et je commençais à reprendre ma
@@ -2888,10 +2928,9 @@
                l’accompagnèrent. Je devais suivre le lendemain avec mesdames <persName
                   ref="#P155 #P170">ses sœurs </persName> et ses <persName ref="#P399 #P208">deux
                   parentes </persName>, ce que je fis avec mille plaisirs.</p>
-            <p xml:id="P.97" corresp="/o:mgs.timeline#T19">Dès ce que nous arrivâmes, le
-                  <persName ref="#P162">comte de Schwerin</persName> parut charmé de nous recevoir
-               et dit que les rossignols avaient chanté à leur arrivée. Ils en avaient fait autant à
-               la nôtre. <app>
+            <p xml:id="P.97" corresp="/o:mgs.timeline#T19">Dès ce que nous arrivâmes, le <persName
+                  ref="#P162">comte de Schwerin</persName> parut charmé de nous recevoir et dit que
+               les rossignols avaient chanté à leur arrivée. Ils en avaient fait autant à la nôtre. <app>
                   <rdg wit="#W">Cela fournit matière à bien des plaisanteries, la musique étant
                      défendue pour le deuil. On dit que ces petits sujets de notre terre étaient
                      hors des ordres souverains, on n’eut jamais dit que notre compagnie fut là
@@ -2927,10 +2966,10 @@
                Et au lieu que le <persName ref="#P162">comte de Schwerin</persName> n’avait voulu
                que m’attirer de l’embarras pour s’en divertir, il me mit dans des chagrins dont je
                n’ai pu tirer qu’en me remettant dans de plus grands.</p>
-            <p xml:id="P.98">Nous ne restâmes que peu de jours dans cet agréable séjour. Il
-               fallut se rendre à <placeName ref="#O6">Berlin</placeName>, où <persName ref="#P81"
-                  >mon père</persName> se rendit avec toute la famille. Le <persName ref="#P162"
-                  >comte de Schwerin</persName> avait <persName ref="#P157 #P163">deux sœurs mariées
+            <p xml:id="P.98">Nous ne restâmes que peu de jours dans cet agréable séjour. Il fallut
+               se rendre à <placeName ref="#O6">Berlin</placeName>, où <persName ref="#P81">mon
+                  père</persName> se rendit avec toute la famille. Le <persName ref="#P162">comte de
+                  Schwerin</persName> avait <persName ref="#P157 #P163">deux sœurs mariées
                </persName>, hors <persName ref="#P155">la veuve</persName> et <persName ref="#P170"
                   >celle qui était dans la maison</persName>. Elles y vinrent avec <persName
                   ref="#P184 #P148">leurs époux </persName>, <persName ref="#P173">mon
@@ -3009,8 +3048,8 @@
                compassion, et même souvent je m’imaginais qu’elle admirait ma tranquillité. Ces
                entretiens me furent très fatals dans la suite et <anchor corresp="#facs_135"
                   xml:id="normalized_facs_135"/>m’attirèrent l’aversion de toute la famille.</p>
-            <p xml:id="P.100">Le <persName ref="#P162">comte de Schwerin</persName> ne fut
-               que deux jours absent. A son retour, <app>
+            <p xml:id="P.100">Le <persName ref="#P162">comte de Schwerin</persName> ne fut que deux
+               jours absent. A son retour, <app>
                   <rdg wit="#A">il me dit : « Je viens de rétablir la</rdg>
                </app> paix, et tout reste tranquille dans la maison, on la remeuble déjà. »
                   <persName ref="#P208">La demoiselle de Wylich-Lottum</persName> avait trop
@@ -3083,16 +3122,15 @@
                remettez les tous dans le trouble. » Je fus si étourdie de cette réponse que je me
                tus sans répliquer un seul mot et partis pour <placeName ref="#O6">Berlin</placeName>
                le cœur navré de chagrin.</p>
-            <p xml:id="P.102">Voilà mon Dieu comme vous avez commencé à m’arracher tout ce
-               qui m’attachait, et c’étaient les premiers pas par où j’appris à me vaincre. Dès ce
-               que j’arrivai à <placeName ref="#O6">Berlin</placeName>, tout le monde me fit
-               accueil, et on commença à me traiter en maîtresse de la maison. Cela ne dura que
-               jusqu’à ce que <persName ref="#P208">la demoiselle de Wylich-Lottum</persName> eût
-               informé toute la famille de mes oppositions. Alors je ne recevais que des froideurs
-               sans pouvoir pénétrer d’où <app>
+            <p xml:id="P.102">Voilà mon Dieu comme vous avez commencé à m’arracher tout ce qui
+               m’attachait, et c’étaient les premiers pas par où j’appris à me vaincre. Dès ce que
+               j’arrivai à <placeName ref="#O6">Berlin</placeName>, tout le monde me fit accueil, et
+               on commença à me traiter en maîtresse de la maison. Cela ne dura que jusqu’à ce que
+                  <persName ref="#P208">la demoiselle de Wylich-Lottum</persName> eût informé toute
+               la famille de mes oppositions. Alors je ne recevais que des froideurs sans pouvoir
+               pénétrer d’où <app>
                   <rdg wit="#W">me</rdg>
-               </app> venait ce changement. Une de mes belles-sœurs, que je nommerai <seg ana="#R4"
-                 >
+               </app> venait ce changement. Une de mes belles-sœurs, que je nommerai <seg ana="#R4">
                   <persName ref="#P163">madame d’Amtitz</persName>
                </seg>, me le dit, mais que comme un soupçon qu’on avait de moi. Elle a le cœur
                extrêmement bon, et elle m’est restée fidèle jusqu'à la fin. Je lui dis que le
@@ -3103,8 +3141,8 @@
                </app>. Je la remerciai tendrement, mais jamais je ne songeai que celle qui me
                trahissait fût du nombre. Je ne l’ai même aperçu que deux ans après, par une
                bagatelle où Dieu me fit ouvrir les yeux.</p>
-            <p xml:id="P.103">Je donnai d’abord ma vaisselle que j’avais eue de <persName
-                  ref="#P5">ma chère tante</persName>, pour faire <app>
+            <p xml:id="P.103">Je donnai d’abord ma vaisselle que j’avais eue de <persName ref="#P5"
+                  >ma chère tante</persName>, pour faire <app>
                   <rdg wit="#A">faire</rdg>
                </app> le plus nécessaire de la maison. Ce qui me piquait jusqu’<app>
                   <rdg wit="#A">à un rire</rdg>
@@ -3130,12 +3168,12 @@
                catholique dans ce temps-là pour avoir pu faire un bon usage des contradictions que
                vous m’envoyiez, dans le temps où devant vous j’étais encore dans une innocence très
                grande.</p>
-            <p xml:id="P.104" corresp="/o:mgs.timeline#T20 #T21">Enfin je restai encore un
-               mois à <placeName ref="#O6">Berlin</placeName>, et au commencement d’<date
-                  type="month" when-iso="--08">août</date> je retournai à la campagne, où j’emmenai
-               une des dames de feue <persName ref="#P66">la Reine</persName>, <persName ref="#P205"
-                  >la demoiselle de Sonsfeld</persName>. <persName ref="#P163">Madame d’Amtitz
-               </persName> était en couches dans la maison, cela y augmentait l’embarras. J’<app>
+            <p xml:id="P.104" corresp="/o:mgs.timeline#T20 #T21">Enfin je restai encore un mois à
+                  <placeName ref="#O6">Berlin</placeName>, et au commencement d’<date type="month"
+                  when-iso="--08">août</date> je retournai à la campagne, où j’emmenai une des dames
+               de feue <persName ref="#P66">la Reine</persName>, <persName ref="#P205">la demoiselle
+                  de Sonsfeld</persName>. <persName ref="#P163">Madame d’Amtitz </persName> était en
+               couches dans la maison, cela y augmentait l’embarras. J’<app>
                   <rdg wit="#A">y</rdg>
                </app> restai jusqu’au 24 du mois, mais me trouvant mal d’une très grande altération
                que j’y eus quelques jours auparavant, je retournai à <placeName ref="#O6"
@@ -3173,12 +3211,12 @@
                me faire continuer mon train. <persName ref="#P81">Mon père</persName> resta tout
                l’hiver à <placeName ref="#O6">Berlin</placeName>, et j’avais la permission de
                sortir.</p>
-            <p xml:id="P.105">Dès ce que je fus sortie de couches, je fus à la Cour du
-                  <persName ref="#P16">feu Roi</persName> pour la première fois à <placeName
-                  ref="#O17">Charlottenbourg</placeName>. Il me reçut très gracieusement, et toutes
-               les dames paraissaient me vouloir du bien. Cela me flattait beaucoup, surtout étant
-               alors très bien avec le <persName ref="#P162">comte de Schwerin</persName>. J’étais
-               charmée, j’étais de tous les festins, <app>
+            <p xml:id="P.105">Dès ce que je fus sortie de couches, je fus à la Cour du <persName
+                  ref="#P16">feu Roi</persName> pour la première fois à <placeName ref="#O17"
+                  >Charlottenbourg</placeName>. Il me reçut très gracieusement, et toutes les dames
+               paraissaient me vouloir du bien. Cela me flattait beaucoup, surtout étant alors très
+               bien avec le <persName ref="#P162">comte de Schwerin</persName>. J’étais charmée,
+               j’étais de tous les festins, <app>
                   <rdg wit="#A">fêtes, etc,</rdg>
                </app> où <persName ref="#P81">mon père</persName> et <persName ref="#P82">ma
                   belle-mère</persName> allaient. Chacun me donnait des instructions comme je devais

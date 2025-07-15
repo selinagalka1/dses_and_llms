@@ -10,7 +10,7 @@
             <p>Generated sample</p>
          </publicationStmt>
          <sourceDesc>
-            <p>From original TEI file</p>
+            <p>From original TEI/XML file of the normalized french text</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
