@@ -1,0 +1,88 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rel: <http://purl.org/vocab/relationship/> .
+@prefix ex: <http://example.org/persons/> .
+
+# Person entities with names and gender
+ex:P153 rdf:type foaf:Person ;
+    foaf:name "Countess of Schwerin" ;
+    foaf:gender "female" ;
+    rdfs:comment "The narrator, wife of Count Schwerin" .
+
+ex:P162 rdf:type foaf:Person ;
+    foaf:name "Count Schwerin" ;
+    foaf:gender "male" ;
+    rdfs:comment "The narrator's husband" .
+
+ex:P158 rdf:type foaf:Person ;
+    foaf:name "Countess of Schwerin" ;
+    foaf:gender "female" ;
+    rdfs:comment "The narrator's mother-in-law, naturally somewhat quick-tempered" .
+
+ex:P169 rdf:type foaf:Person ;
+    foaf:name "Father-in-law" ;
+    foaf:gender "male" ;
+    rdfs:comment "The narrator's father-in-law, was absent upon their arrival" .
+
+ex:P170 rdf:type foaf:Person ;
+    foaf:name "Sister of Count Schwerin" ;
+    foaf:gender "female" ;
+    rdfs:comment "One of Count Schwerin's sisters who managed the household" .
+
+ex:P399 rdf:type foaf:Person ;
+    foaf:name "First cousin" ;
+    foaf:gender "female" ;
+    rdfs:comment "First cousin of Count Schwerin, had been there since childhood, gentle disposition" .
+
+ex:P205 rdf:type foaf:Person ;
+    foaf:name "Court lady" ;
+    foaf:gender "female" ;
+    rdfs:comment "Sister of P399, was at court" .
+
+ex:P155 rdf:type foaf:Person ;
+    foaf:name "Madame de C." ;
+    foaf:gender "female" ;
+    rdfs:comment "Widowed sister of Count Schwerin, lived in town" .
+
+ex:P208 rdf:type foaf:Person ;
+    foaf:name "Fr. de W." ;
+    foaf:gender "female" ;
+    rdfs:comment "Another first cousin, lived with Madame de C." .
+
+# Marital relationships
+ex:P153 rel:spouseOf ex:P162 .
+ex:P158 rel:spouseOf ex:P169 .
+
+# In-law relationships
+ex:P153 rel:childInLawOf ex:P169 .
+ex:P153 rel:childInLawOf ex:P158 .
+
+# Sibling relationships
+ex:P162 rel:siblingOf ex:P170 .
+ex:P162 rel:siblingOf ex:P155 .
+ex:P399 rel:siblingOf ex:P205 .
+
+# Cousin relationships  
+ex:P162 rel:cousinOf ex:P399 .
+ex:P162 rel:cousinOf ex:P208 .
+
+# Household relationships
+ex:P208 ex:livesWithOf ex:P155 .
+
+# Relationship property definitions
+rel:spouseOf rdfs:label "spouse of" ;
+    rdfs:comment "Indicates a marital relationship between two persons" .
+
+rel:childInLawOf rdfs:label "child-in-law of" ;
+    rdfs:comment "Indicates an in-law relationship where one person is the child-in-law of another" .
+
+rel:siblingOf rdfs:label "sibling of" ;
+    rdfs:comment "Indicates a sibling relationship between two persons (symmetric)" .
+
+rel:cousinOf rdfs:label "cousin of" ;
+    rdfs:comment "Indicates a cousin relationship between two persons (symmetric)" .
+
+ex:livesWithOf rdfs:label "lives with" ;
+    rdfs:comment "Indicates that one person lives in the household of another" .
