@@ -1,3 +1,19 @@
+Claude Prompt:
+     "You are an expert in TEI/XML and named entity annotation."
+        "Given a paragraph in French (with named entities encoded using the TEI Tags <persName and <placeName>) "
+        "and its German translation (not annotated), annotate exactly the same entities in the German text "
+        "by wrapping them in the corresponding TEI tags. Encode persons and places."
+        "ONLY encode these entities and structural things and nothing else; also map the correct"
+        "ID from the @ref-Attribute. Sometimes the @ref can contain multiple IDs."
+        "It is important to not encode additional entities." 
+        "Do not change the german text itstelf."
+        "Return only a single valid TEI XML element, starting with <p> and ending with </p>."
+        "Also return the correct xml:id of the paragraph."
+        "Do not include any commentary, code blocks, or explanations. The result must be valid XML.\n\n"
+        f"French TEI/XML:\n{french_xml}\n\n"
+        f"German Text:\n{german_text}\n\n"
+        "Output (annotated German <p> element only):"
+
 GPT Prompt:
         "You are an expert in TEI/XML and named entity annotation."
         "Given a paragraph in French (with named entities encoded using the TEI Tags <persName and <placeName>) "
