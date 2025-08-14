@@ -1,5 +1,5 @@
 # dses_and_llms
-This repository contains data for the paper "Can AI Understand Text? Annotating, Projecting, and Interpreting Named Entities in Digital Scholarly Editions Using Large Language Models."
+This repository contains data for the paper "Annotating, Projecting and Interpreting Named Entities in Digital Scholarly Editions with LLMs".
 
 ## Annotation Projection
 In the folder [./annotation_projection](annotation_projection), you will find a Jupyter Notebook (CLAUDE_Map_annotations.ipynb) for annotation projection using Claude. This notebook includes the prompt that was used (with minimal variation) across all models. Additionally it containes the evaluation of the annotated entities based on @ref-attributes. Another Jupyter Notebook (Visualization_of_results.ipynb) has been used to visualize the Annotation Projection results in HTML with side-by-side aligned paragraphs, enabling users to hover over entities to trace corresponding references. The folder also contains the input documents (French source texts) and the corresponding annotated German translations in the output directory, as well as in subfolders named after the respective models. Additionally, HTML files are provided that display the annotated model outputs side-by-side with the original French source texts.
