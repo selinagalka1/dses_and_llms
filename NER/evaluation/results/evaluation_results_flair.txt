@@ -1,104 +1,27 @@
 
-=== Experiment: Flair annotated with NE vs Human Gold (normalized paragraphs) ===
-SEQEVAL REPORT:
-              precision    recall  f1-score   support
-
-         LOC       0.00      0.00      0.00        19
-         PER       0.00      0.00      0.00       134
-
-   micro avg       0.00      0.00      0.00       153
-   macro avg       0.00      0.00      0.00       153
-weighted avg       0.00      0.00      0.00       153
-
-SKLEARN REPORT:
-              precision    recall  f1-score   support
-
-       B-LOC       0.00      0.00      0.00        19
-       B-PER       0.00      0.00      0.00       134
-       I-LOC       0.00      0.00      0.00         3
-       I-PER       0.00      0.00      0.00       209
-           O       0.95      1.00      0.97      7106
-
-    accuracy                           0.95      7471
-   macro avg       0.19      0.20      0.19      7471
-weighted avg       0.90      0.95      0.93      7471
-
-
 
 === Experiment: Flair annotated with NE vs Human Gold (normalized paragraphs) ===
 SEQEVAL REPORT:
               precision    recall  f1-score   support
 
-         LOC       0.45      0.69      0.55        29
-         PER       0.35      0.20      0.26       170
+         LOC       0.50      0.72      0.59        81
+         PER       0.30      0.19      0.23       444
 
-   micro avg       0.39      0.27      0.32       199
-   macro avg       0.40      0.44      0.40       199
-weighted avg       0.37      0.27      0.30       199
-
-SKLEARN REPORT:
-              precision    recall  f1-score   support
-
-       B-LOC       0.45      0.69      0.55        29
-       B-PER       0.35      0.20      0.26       170
-       I-LOC       0.17      0.40      0.24         5
-       I-PER       0.77      0.26      0.39       276
-           O       0.96      0.99      0.98      8358
-
-    accuracy                           0.95      8838
-   macro avg       0.54      0.51      0.48      8838
-weighted avg       0.94      0.95      0.94      8838
-
-
-
-=== Experiment: Flair annotated with NE vs Human Gold (normalized paragraphs) ===
-SEQEVAL REPORT:
-              precision    recall  f1-score   support
-
-         LOC       0.45      0.69      0.55        29
-         PER       0.35      0.20      0.26       170
-
-   micro avg       0.39      0.27      0.32       199
-   macro avg       0.40      0.44      0.40       199
-weighted avg       0.37      0.27      0.30       199
+   micro avg       0.36      0.27      0.31       525
+   macro avg       0.40      0.45      0.41       525
+weighted avg       0.33      0.27      0.29       525
 
 SKLEARN REPORT:
               precision    recall  f1-score   support
 
-       B-LOC       0.45      0.69      0.55        29
-       B-PER       0.35      0.20      0.26       170
-       I-LOC       0.17      0.40      0.24         5
-       I-PER       0.77      0.26      0.39       276
-           O       0.96      0.99      0.98      8358
+       B-LOC       0.50      0.72      0.59        81
+       B-PER       0.32      0.20      0.25       444
+       I-LOC       0.32      0.73      0.44        11
+       I-PER       0.78      0.24      0.37       815
+           O       0.96      0.99      0.97     19238
 
-    accuracy                           0.95      8838
-   macro avg       0.54      0.51      0.48      8838
-weighted avg       0.94      0.95      0.94      8838
-
-
-
-=== Experiment: Flair annotated with NE vs Human Gold (normalized paragraphs) ===
-SEQEVAL REPORT:
-              precision    recall  f1-score   support
-
-         LOC       0.45      0.69      0.55        29
-         PER       0.35      0.20      0.26       170
-
-   micro avg       0.39      0.27      0.32       199
-   macro avg       0.40      0.44      0.40       199
-weighted avg       0.37      0.27      0.30       199
-
-SKLEARN REPORT:
-              precision    recall  f1-score   support
-
-       B-LOC       0.45      0.69      0.55        29
-       B-PER       0.35      0.20      0.26       170
-       I-LOC       0.17      0.40      0.24         5
-       I-PER       0.77      0.26      0.39       276
-           O       0.96      0.99      0.98      8358
-
-    accuracy                           0.95      8838
-   macro avg       0.54      0.51      0.48      8838
-weighted avg       0.94      0.95      0.94      8838
+    accuracy                           0.94     20589
+   macro avg       0.58      0.57      0.52     20589
+weighted avg       0.93      0.94      0.93     20589
 
 
